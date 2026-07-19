@@ -26,8 +26,28 @@ The goal of the concept model is to provide support to:
 * Support the assignment of classification to Reference Sources used in VR to depict uncertainty of the 3D representation
 * Support the assignment of level of accuracy of VR elements that can be deducted from the Reference Source
 
-# References
-
 The model is built on the same principle of CIDOC-CRM. The model reuses, when appropriate part of the CIDOC-CRM classes and properties, and refers to other CRM extensions that were developed to ensure the completeness of documentation.
+
+# References
+// Load Citation.js
+const { Cite } = require('@citation-js/core')
+// Load plugins
+require('@citation-js/plugin-doi')
+require('@citation-js/plugin-csl')
+
+// Parse input
+Cite.async('10.7717/peerj-cs.214').then(data => {
+  // Format output
+  const bibliography = data.format('bibliography', {
+    format: 'html',
+    style: 'apa',
+    lang: 'en-US'
+  })
+  console.log(bibliography)
+})
+Giovannini, Elisabetta Caterina (2018) Virtual Reconstruction Information Management. A scientific method and 3D visualization of Virtual Reconstruction Processes., [Dissertation thesis], Alma Mater Studiorum Università di Bologna. Dottorato di ricerca in Architettura, 30 Ciclo. DOI 10.6092/unibo/amsdottorato/8330.
+
+
+
 
 
