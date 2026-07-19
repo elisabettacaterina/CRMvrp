@@ -1,0 +1,2814 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "undefined" ],
+    "baseIris" : [ "https://github.com/elisabettacaterina/CRMvr", "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.cidoc-crm.org/extensions/crmdig", "http://www.cidoc-crm.org/extensions/crmsci", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/ns/prov", "http://www.w3.org/2001/XMLSchema", "http://www.w3.org/ns/ldp", "http://www.cidoc-crm.org/cidoc-crm" ],
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/",
+    "version" : "1.0.0",
+    "labels" : {
+      "en" : "VRP version 1.0.0"
+    },
+    "comments" : {
+      "en" : "Ontology for Virtual Reconstruction Processes (VRP) aligned to CIDOC CRM."
+    },
+    "other" : {
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "en",
+        "value" : "1.0.0",
+        "type" : "label"
+      } ],
+      "generatedAtTime" : [ {
+        "identifier" : "generatedAtTime",
+        "language" : "undefined",
+        "value" : "2026-06-24T12:10:19.888Z",
+        "type" : "label"
+      } ],
+      "wasAttributedTo" : [ {
+        "identifier" : "wasAttributedTo",
+        "language" : "undefined",
+        "value" : "http://www.researchspace.org/resource/user/admin",
+        "type" : "iri"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "28",
+    "type" : "owl:Class"
+  }, {
+    "id" : "36",
+    "type" : "owl:Class"
+  }, {
+    "id" : "44",
+    "type" : "owl:Class"
+  }, {
+    "id" : "54",
+    "type" : "owl:Class"
+  }, {
+    "id" : "56",
+    "type" : "owl:Class"
+  }, {
+    "id" : "73",
+    "type" : "owl:Class"
+  }, {
+    "id" : "26",
+    "type" : "owl:Class"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "34",
+    "type" : "owl:Class"
+  }, {
+    "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "74",
+    "type" : "owl:Class"
+  }, {
+    "id" : "40",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "80",
+    "type" : "owl:Class"
+  }, {
+    "id" : "42",
+    "type" : "owl:Class"
+  }, {
+    "id" : "102",
+    "type" : "owl:Class"
+  }, {
+    "id" : "108",
+    "type" : "owl:Class"
+  }, {
+    "id" : "69",
+    "type" : "owl:Class"
+  }, {
+    "id" : "52",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "97",
+    "type" : "owl:Class"
+  }, {
+    "id" : "62",
+    "type" : "owl:Class"
+  }, {
+    "id" : "31",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "49",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "83",
+    "type" : "owl:Class"
+  }, {
+    "id" : "55",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "174",
+    "type" : "owl:Class"
+  }, {
+    "id" : "47",
+    "type" : "owl:Class"
+  }, {
+    "id" : "58",
+    "type" : "owl:Class"
+  }, {
+    "id" : "29",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object",
+    "baseIri" : "http://www.cidoc-crm.org/cidoc-crm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "E89_Propositional_Object"
+    },
+    "subClasses" : [ "12", "13", "14" ],
+    "attributes" : [ "external" ],
+    "id" : "11"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/V19_Uncertainty_Evaluation",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "instances" : 0,
+    "annotations" : {
+      "notation" : [ {
+        "identifier" : "notation",
+        "language" : "undefined",
+        "value" : "V19",
+        "type" : "label"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Uncertainty Evaluation",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "V19_Uncertainty_Evaluation",
+      "en" : "V19 Uncertainty Evaluation"
+    },
+    "comment" : {
+      "en" : "This class comprises the action of make propositions on data observable from a V17 Source or E31 Document by making evaluations based on the V21 Uncertainty Grade of informations on morphological and geometrical representations of the Cultural Heritage or Immaterial Heritage that we want to digitally reproduce."
+    },
+    "id" : "28",
+    "superClasses" : [ "29" ]
+  }, {
+    "iri" : "http://www.w3.org/ns/prov#Entity",
+    "baseIri" : "http://www.w3.org/ns/prov",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Entity"
+    },
+    "individuals" : [ {
+      "iri" : "https://github.com/elisabettacaterina/CRMvr/",
+      "baseIri" : "https://github.com/elisabettacaterina",
+      "labels" : { }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "36"
+  }, {
+    "iri" : "http://www.cidoc-crm.org/cidoc-crm/E60_Number",
+    "baseIri" : "http://www.cidoc-crm.org/cidoc-crm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "E60_Number"
+    },
+    "attributes" : [ "external" ],
+    "id" : "44"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/V11_Geometrical_Representation",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "instances" : 0,
+    "annotations" : {
+      "notation" : [ {
+        "identifier" : "notation",
+        "language" : "undefined",
+        "value" : "V11",
+        "type" : "label"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Geometrical Representation",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "V11_Geometrical_Representation",
+      "en" : "V11 Geometrical Representation"
+    },
+    "subClasses" : [ "20", "26" ],
+    "comment" : {
+      "en" : "The class comprise the visual knowledge about the geometrical representation of a V5 Component Element."
+    },
+    "id" : "54",
+    "superClasses" : [ "55" ]
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/V13_Order_of_Sequence_Identifier",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "instances" : 0,
+    "annotations" : {
+      "notation" : [ {
+        "identifier" : "notation",
+        "language" : "undefined",
+        "value" : "V13",
+        "type" : "label"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Order of Sequence Identifier",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "V13_Order_of_Sequence_Identifier",
+      "en" : "V13 Order of Sequence Identifier"
+    },
+    "comment" : {
+      "en" : "The class comprise an identifier that declare the E42 Identifier assigned to the V12 Primitive Entity and its position in the geometrical sequence of primitive elements that create V14 profile or V15 Path."
+    },
+    "id" : "56",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/V3_Cultural_Heritage",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "instances" : 0,
+    "annotations" : {
+      "notation" : [ {
+        "identifier" : "notation",
+        "language" : "undefined",
+        "value" : "V3",
+        "type" : "label"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Cultural Heritage",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "V3_Cultural_Heritage",
+      "en" : "V3 Cultural Heritage"
+    },
+    "subClasses" : [ "31" ],
+    "comment" : {
+      "en" : "Cultural heritage includes buildings and historic places, monuments, artifacts, etc., including objects significant to the archaeology, architecture, science or technology of a specific culture that had a certain or documented physical existance."
+    },
+    "id" : "73",
+    "superClasses" : [ "74" ]
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/V15_Path",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "instances" : 0,
+    "annotations" : {
+      "notation" : [ {
+        "identifier" : "notation",
+        "language" : "undefined",
+        "value" : "V15",
+        "type" : "label"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Path",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "V15_Path",
+      "en" : "V15 Path"
+    },
+    "comment" : {
+      "en" : "The class comprise the geometrical representation of the physical features of a path in the horizontal plane containing both endpoints of the path."
+    },
+    "id" : "26",
+    "superClasses" : [ "54" ]
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/V20_Accuracy_Evaluation",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "instances" : 0,
+    "annotations" : {
+      "notation" : [ {
+        "identifier" : "notation",
+        "language" : "undefined",
+        "value" : "V20",
+        "type" : "label"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Accuracy Evaluation",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "V20_Accuracy_Evaluation",
+      "en" : "V20 Accuracy Evaluation"
+    },
+    "comment" : {
+      "en" : "This class comprises the action of make propositions on data observable from a V17 Source or E31 Document by making evaluations based on the V22 Accuracy Grade of informations on morphological and geometrical representations of the Cultural Heritage or Immaterial Heritage that it is possible to digitally reproduce."
+    },
+    "id" : "17",
+    "superClasses" : [ "29" ]
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/V1_Domain",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "instances" : 0,
+    "annotations" : {
+      "notation" : [ {
+        "identifier" : "notation",
+        "language" : "undefined",
+        "value" : "V1",
+        "type" : "label"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Domain",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "V1_Domain",
+      "en" : "V1 Domain"
+    },
+    "comment" : {
+      "en" : "This class includes all entities attributable to cultural heritage. Defines an area of interest or an area of which the object of reconstruction process is part of. Heritage includes buildings and historic places, monuments, artifacts, etc., including objects significant to the archaeology, architecture, science or technology of a specific culture."
+    },
+    "id" : "34",
+    "superClasses" : [ "47" ]
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/V14_Profile",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "instances" : 0,
+    "annotations" : {
+      "notation" : [ {
+        "identifier" : "notation",
+        "language" : "undefined",
+        "value" : "V14",
+        "type" : "label"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Profile",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "V14_Profile",
+      "en" : "V14 Profile"
+    },
+    "comment" : {
+      "en" : "The class comprise the geometrical representation of the physical features of a profile in the vertical plane containing both endpoints of the profile. The profile could be intended as a vertical section of the V11 Geometrical Representation."
+    },
+    "id" : "20",
+    "superClasses" : [ "54" ]
+  }, {
+    "iri" : "http://www.cidoc-crm.org/cidoc-crm/E24_Physical_Human-Made_Thing",
+    "baseIri" : "http://www.cidoc-crm.org/cidoc-crm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "E24_Physical_Human-Made_Thing"
+    },
+    "subClasses" : [ "73" ],
+    "attributes" : [ "external" ],
+    "id" : "74"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/V23_Dimension_Equivalent",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "instances" : 0,
+    "annotations" : {
+      "notation" : [ {
+        "identifier" : "notation",
+        "language" : "undefined",
+        "value" : "V23",
+        "type" : "label"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Dimension Equivalent",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "V23_Dimension_Equivalent",
+      "en" : "V23 Dimension Equivalent"
+    },
+    "comment" : {
+      "en" : "This class comprises equivalent value that can be attribute to an E54 Dimension according with the modelling software used. The 3D modelling software usually does not use the same E54 Dimension values and units indicated on a V17 source or E31 Document available."
+    },
+    "id" : "40",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+    "baseIri" : "http://www.cidoc-crm.org/cidoc-crm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "E55_Type"
+    },
+    "subClasses" : [ "49", "83", "58" ],
+    "attributes" : [ "external" ],
+    "id" : "2"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/V10_Author",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "instances" : 0,
+    "annotations" : {
+      "notation" : [ {
+        "identifier" : "notation",
+        "language" : "undefined",
+        "value" : "V10",
+        "type" : "label"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Author",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "V10_Author",
+      "en" : "V10 Author"
+    },
+    "comment" : {
+      "en" : "This class comprise instances of V10 author of the version of the 3D model of a V5 Component Element."
+    },
+    "id" : "16",
+    "superClasses" : [ "97" ]
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/V9_Version_Identifier",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "instances" : 0,
+    "annotations" : {
+      "notation" : [ {
+        "identifier" : "notation",
+        "language" : "undefined",
+        "value" : "V9",
+        "type" : "label"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Version Identifier",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "V9_Version_Identifier",
+      "en" : "V9 Version Identifier"
+    },
+    "comment" : {
+      "en" : "This class comprise an identifier that declare the E42 Identifier assigned to each 3D modelled version of the same V8 3D Object based on different evidence/reference."
+    },
+    "id" : "80",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/V7_Hierarchy_Identifier",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "instances" : 0,
+    "annotations" : {
+      "notation" : [ {
+        "identifier" : "notation",
+        "language" : "undefined",
+        "value" : "V7",
+        "type" : "label"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Hierarchy Identifier",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "V7_Hierarchy_Identifier",
+      "en" : "V7 Hierarchy Identifier"
+    },
+    "comment" : {
+      "en" : "This class comprise the level of hierachical aggregation of the component in relation with the whole element. Depending on the domain, its classifications and its controlled vocabulary the sub-elements that compose the artifact could variate creating a hierarchy of part decomposition that is declared by V7 Hierarchy Identifier."
+    },
+    "id" : "42",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://www.cidoc-crm.org/extensions/crmsci/S5_Inference_Making",
+    "baseIri" : "http://www.cidoc-crm.org/extensions/crmsci",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "S5_Inference_Making"
+    },
+    "subClasses" : [ "29" ],
+    "attributes" : [ "external" ],
+    "id" : "102"
+  }, {
+    "iri" : "http://www.cidoc-crm.org/extensions/crmdig/D1_Digital_Object",
+    "baseIri" : "http://www.cidoc-crm.org/extensions/crmdig",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "D1_Digital_Object"
+    },
+    "subClasses" : [ "69", "5" ],
+    "attributes" : [ "external" ],
+    "id" : "108"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/V6_3D_Find",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "instances" : 0,
+    "annotations" : {
+      "notation" : [ {
+        "identifier" : "notation",
+        "language" : "undefined",
+        "value" : "V6",
+        "type" : "label"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "3D Find",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "V6_3D_Find",
+      "en" : "V6 3D Find"
+    },
+    "comment" : {
+      "en" : "This class comprise the immaterial representation of V4 Find that are represented as a 3D model obtained by a D2 Digitization process."
+    },
+    "id" : "69",
+    "superClasses" : [ "108" ]
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/V25_Evaluation_of_Dimension_Provenance",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "instances" : 0,
+    "annotations" : {
+      "notation" : [ {
+        "identifier" : "notation",
+        "language" : "undefined",
+        "value" : "V25",
+        "type" : "label"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Evaluation of Dimension Provenance",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "V25_Evaluation_of_Dimension_Provenance",
+      "en" : "V25 Evaluation of Dimension Provenance"
+    },
+    "comment" : {
+      "en" : "This class comprises the action of make propositions about Dimension Provenance: connecting the E45 Dimension and its values with a V17 Source or E31 Document used for the Virtual Recontruction."
+    },
+    "id" : "52",
+    "superClasses" : [ "29" ]
+  }, {
+    "iri" : "http://www.cidoc-crm.org/cidoc-crm/E42_Identifier",
+    "baseIri" : "http://www.cidoc-crm.org/cidoc-crm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "E42_Identifier"
+    },
+    "subClasses" : [ "56", "80", "42" ],
+    "attributes" : [ "external" ],
+    "id" : "6"
+  }, {
+    "iri" : "http://www.cidoc-crm.org/cidoc-crm/E21_Person",
+    "baseIri" : "http://www.cidoc-crm.org/cidoc-crm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "E21_Person"
+    },
+    "subClasses" : [ "16" ],
+    "attributes" : [ "external" ],
+    "id" : "97"
+  }, {
+    "iri" : "http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit",
+    "baseIri" : "http://www.cidoc-crm.org/cidoc-crm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "E58_Measurement_Unit"
+    },
+    "attributes" : [ "external" ],
+    "id" : "62"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/V4_Find",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "instances" : 0,
+    "annotations" : {
+      "notation" : [ {
+        "identifier" : "notation",
+        "language" : "undefined",
+        "value" : "V4",
+        "type" : "label"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Find",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "V4_Find",
+      "en" : "V4 Find"
+    },
+    "comment" : {
+      "en" : "This class comprises physical evidence of the Heritage object that can be virtually reconstructed by SFM process (D2) or other methods."
+    },
+    "id" : "31",
+    "superClasses" : [ "73" ]
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/V17_Source",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "instances" : 0,
+    "annotations" : {
+      "notation" : [ {
+        "identifier" : "notation",
+        "language" : "undefined",
+        "value" : "V17",
+        "type" : "label"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Source",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "V17_Source",
+      "en" : "V17 Source"
+    },
+    "comment" : {
+      "en" : "This class comprise instances of V17 Sources and E31 Documents used in the Virtual Reconstruction process as evidence of reference of 3D modelling."
+    },
+    "id" : "1",
+    "superClasses" : [ "55" ]
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/V8_3D_Object",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "instances" : 0,
+    "annotations" : {
+      "notation" : [ {
+        "identifier" : "notation",
+        "language" : "undefined",
+        "value" : "V8",
+        "type" : "label"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "3D Object",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "V8_3D_Object",
+      "en" : "V8 3D Object"
+    },
+    "comment" : {
+      "en" : "Three-dimensional (3D) models represent an artefact, using a collection of points in 3D space, connected by various geometric entities such as triangles, lines, curved surfaces, etc. A 3D digital object define the volume of the object that represent. In heritage virtual reconstructions is preferred the use of solid models that are usually built with constructive solid geometry."
+    },
+    "id" : "5",
+    "superClasses" : [ "108" ]
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/V22_Accuracy_Grade",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "instances" : 0,
+    "annotations" : {
+      "notation" : [ {
+        "identifier" : "notation",
+        "language" : "undefined",
+        "value" : "V22",
+        "type" : "label"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Accuracy Grade",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "V22_Accuracy_Grade",
+      "en" : "V22 Accuracy Grade"
+    },
+    "comment" : {
+      "en" : "This class comprise instances of V22 Accuracy Grade that could be assigned to a V17 Source."
+    },
+    "id" : "49",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/V2_Immaterial_Heritage",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "instances" : 0,
+    "annotations" : {
+      "notation" : [ {
+        "identifier" : "notation",
+        "language" : "undefined",
+        "value" : "V2",
+        "type" : "label"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Immaterial Heritage",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "V2_Immaterial_Heritage",
+      "en" : "V2 Immaterial Heritage"
+    },
+    "comment" : {
+      "en" : "This class comprises immaterial heritage that are documented in some way by any kind of source and that can be virtually reproduced."
+    },
+    "id" : "12",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/V5_Component_Element",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "instances" : 0,
+    "annotations" : {
+      "notation" : [ {
+        "identifier" : "notation",
+        "language" : "undefined",
+        "value" : "V5",
+        "type" : "label"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Component Element",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "V5_Component_Element",
+      "en" : "V5 Component Element"
+    },
+    "comment" : {
+      "en" : "This class comprises instances that are considered functional units for the whole object, accordind with the declared domain. It comprise V5 component elements that are themselves instances of V5 components elements. The V5 component element could be further analyzed into sub-components creating a hierarchy of part decomposition that is declared by V7 Hierarchy Identifier."
+    },
+    "id" : "13",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/V21_Uncertainty_Grade",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "instances" : 0,
+    "annotations" : {
+      "notation" : [ {
+        "identifier" : "notation",
+        "language" : "undefined",
+        "value" : "V21",
+        "type" : "label"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Uncertainty Grade",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "V21_Uncertainty_Grade",
+      "en" : "V21 Uncertainty Grade"
+    },
+    "comment" : {
+      "en" : "This class comprise instances of V21 Unvcertainty Grade that could be assigned to a V17 Source."
+    },
+    "id" : "83",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object",
+    "baseIri" : "http://www.cidoc-crm.org/cidoc-crm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "E73_Information_Object"
+    },
+    "subClasses" : [ "54", "9", "1" ],
+    "attributes" : [ "external" ],
+    "id" : "55"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/V12_Primitive_Entity",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "instances" : 0,
+    "annotations" : {
+      "notation" : [ {
+        "identifier" : "notation",
+        "language" : "undefined",
+        "value" : "V12",
+        "type" : "label"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Primitive Entity",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "V12_Primitive_Entity",
+      "en" : "V12 Primitive Entity"
+    },
+    "comment" : {
+      "en" : "The class comprise the geometrical item that can be assumed as a geometrical primitive necessary for the construction of V14 Profile and V15 Path."
+    },
+    "id" : "14",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "http://www.w3.org/ns/ldp#Resource",
+    "baseIri" : "http://www.w3.org/ns/ldp",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Resource"
+    },
+    "individuals" : [ {
+      "iri" : "https://github.com/elisabettacaterina/CRMvr/",
+      "baseIri" : "https://github.com/elisabettacaterina",
+      "labels" : { }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "174"
+  }, {
+    "iri" : "http://www.cidoc-crm.org/cidoc-crm/E77_Persistent_Item",
+    "baseIri" : "http://www.cidoc-crm.org/cidoc-crm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "E77_Persistent_Item"
+    },
+    "subClasses" : [ "34" ],
+    "attributes" : [ "external" ],
+    "id" : "47"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/V24_Type_of_Dimension_Provenance",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "instances" : 0,
+    "annotations" : {
+      "notation" : [ {
+        "identifier" : "notation",
+        "language" : "undefined",
+        "value" : "V24",
+        "type" : "label"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Type of Dimension Provenance",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "V24_Type_of_Dimension_Provenance",
+      "en" : "V24 Type of Dimension Provenance"
+    },
+    "comment" : {
+      "en" : "This class comprises Type of Dimensions in relation withw their reference V17 Sources or E31 Documents. In Virtual Reconstruction Processes are defined ony three enumerated Types of Dimension Provenance: Indicated, Deducted, Interpreted."
+    },
+    "id" : "58",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/V18_Transparency_Inference_Making",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "instances" : 0,
+    "annotations" : {
+      "notation" : [ {
+        "identifier" : "notation",
+        "language" : "undefined",
+        "value" : "V18",
+        "type" : "label"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Transparency Inference Making",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "V18_Transparency_Inference_Making",
+      "en" : "V18 Transparency Inference Making"
+    },
+    "subClasses" : [ "28", "17", "52" ],
+    "comment" : {
+      "en" : "This class comprises the action of making propositions and statements about particular geometrical or morphological representations of an V4 Find, its possible virtual representations (V6 3D Find), V17 sources and 3D objects. It includes evaluations and interpretations based on sources available for 3D reconstructions with the aim to fill the gap between documentation and 3D model obtained from them."
+    },
+    "id" : "29",
+    "superClasses" : [ "102" ]
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/V16_Morphological_Representation",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "instances" : 0,
+    "annotations" : {
+      "notation" : [ {
+        "identifier" : "notation",
+        "language" : "undefined",
+        "value" : "V16",
+        "type" : "label"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Morphological Representation",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "V16_Morphological_Representation",
+      "en" : "V16 Morphological Representation"
+    },
+    "comment" : {
+      "en" : "The class comprise immaterial items related to knoledge about the morphological representation of a V5 component element."
+    },
+    "id" : "9",
+    "superClasses" : [ "55" ]
+  }, {
+    "iri" : "http://www.cidoc-crm.org/cidoc-crm/E54_Dimension",
+    "baseIri" : "http://www.cidoc-crm.org/cidoc-crm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "E54_Dimension"
+    },
+    "subClasses" : [ "40" ],
+    "attributes" : [ "external" ],
+    "id" : "21"
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "4",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "8",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "15",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "19",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "23",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "25",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "30",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "33",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "37",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "39",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "41",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "45",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "46",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "48",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "51",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "53",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "57",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "60",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "61",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "64",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "66",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "63",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "68",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "71",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "67",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "59",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "75",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "77",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "79",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "82",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "85",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "86",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "88",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "89",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "35",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "91",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "92",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "93",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "95",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "96",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "98",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "100",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "101",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "103",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "105",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "107",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "109",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "87",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "110",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "7",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "112",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "113",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "115",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "117",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "72",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "118",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "120",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "122",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "124",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "126",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "127",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "129",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "76",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "130",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "132",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "106",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "78",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "84",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "90",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "24",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "134",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "136",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "138",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "140",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "142",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "144",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "137",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "146",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "148",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "141",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "99",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "150",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "43",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "151",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "121",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "104",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "133",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "149",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "3",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "116",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "27",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "152",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "154",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "143",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "114",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "125",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "147",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "50",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "156",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "119",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "157",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "158",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "159",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "160",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "161",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "131",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "162",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "163",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "164",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "165",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "167",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "169",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "170",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "172",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "10",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "166",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "171",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "38",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "173",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "153",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "135",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "65",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "32",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "123",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "70",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "18",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "145",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "175",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "128",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "139",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "22",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "81",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "111",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "176",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "94",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "168",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "155",
+    "type" : "owl:objectProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP59_has_type",
+    "inverse" : "3",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "VP59_has_type",
+      "en" : "has type"
+    },
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "0"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP32_is_identified_by",
+    "inverse" : "7",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "VP32_is_identified_by",
+      "en" : "is identified by"
+    },
+    "domain" : "5",
+    "attributes" : [ "object" ],
+    "id" : "4"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP28i_morphologically_represents",
+    "inverse" : "10",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "VP28i_morphologically_represents",
+      "en" : "morphologically represents"
+    },
+    "domain" : "9",
+    "attributes" : [ "object" ],
+    "id" : "8"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP21i_performed",
+    "inverse" : "18",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "17",
+    "label" : {
+      "IRI-based" : "VP21i_performed",
+      "en" : "performed"
+    },
+    "domain" : "16",
+    "attributes" : [ "object" ],
+    "id" : "15"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP43_has_dimension",
+    "inverse" : "22",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "21",
+    "label" : {
+      "IRI-based" : "VP43_has_dimension",
+      "en" : "has dimension"
+    },
+    "domain" : "20",
+    "attributes" : [ "object" ],
+    "id" : "19"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP3_has_type",
+    "inverse" : "24",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "VP3_has_type",
+      "en" : "has type"
+    },
+    "domain" : "12",
+    "attributes" : [ "object" ],
+    "id" : "23"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP62_has_component",
+    "inverse" : "27",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "VP62_has_component",
+      "en" : "has component"
+    },
+    "domain" : "26",
+    "attributes" : [ "object" ],
+    "id" : "25"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP8i_identifies",
+    "inverse" : "32",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "31",
+    "label" : {
+      "IRI-based" : "VP8i_identifies",
+      "en" : "identifies"
+    },
+    "domain" : "6",
+    "attributes" : [ "object" ],
+    "id" : "30"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP1_has_domain",
+    "inverse" : "35",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "34",
+    "label" : {
+      "IRI-based" : "VP1_has_domain",
+      "en" : "has domain"
+    },
+    "domain" : "12",
+    "attributes" : [ "object" ],
+    "id" : "33"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP10i_is_component_of",
+    "inverse" : "38",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "VP10i_is_component_of",
+      "en" : "is component of"
+    },
+    "domain" : "31",
+    "attributes" : [ "object" ],
+    "id" : "37"
+  }, {
+    "range" : "21",
+    "domain" : "40",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "39"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP13_is_hierarchically_identified",
+    "inverse" : "43",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "42",
+    "label" : {
+      "IRI-based" : "VP13_is_hierarchically_identified",
+      "en" : "is hierarchically identified"
+    },
+    "domain" : "13",
+    "attributes" : [ "object" ],
+    "id" : "41"
+  }, {
+    "range" : "29",
+    "domain" : "28",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "45"
+  }, {
+    "range" : "47",
+    "domain" : "34",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "46"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP23_assigned",
+    "inverse" : "50",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "49",
+    "label" : {
+      "IRI-based" : "VP23_assigned",
+      "en" : "assigned"
+    },
+    "domain" : "17",
+    "attributes" : [ "object" ],
+    "id" : "48"
+  }, {
+    "range" : "29",
+    "domain" : "52",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "51"
+  }, {
+    "range" : "29",
+    "domain" : "17",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "53"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP57i_was_assigned_by",
+    "inverse" : "59",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "52",
+    "label" : {
+      "IRI-based" : "VP57i_was_assigned_by",
+      "en" : "was assigned by"
+    },
+    "domain" : "58",
+    "attributes" : [ "object" ],
+    "id" : "57"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP46_has_number_of_primitive_entities",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "44",
+    "label" : {
+      "IRI-based" : "VP46_has_number_of_primitive_entities",
+      "en" : "has number of primitive entities"
+    },
+    "domain" : "26",
+    "attributes" : [ "object" ],
+    "id" : "60"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP54i_is_unit_of",
+    "inverse" : "63",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "40",
+    "label" : {
+      "IRI-based" : "VP54i_is_unit_of",
+      "en" : "is unit of"
+    },
+    "domain" : "62",
+    "attributes" : [ "object" ],
+    "id" : "61"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP52i_indicates",
+    "inverse" : "65",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "21",
+    "label" : {
+      "IRI-based" : "VP52i_indicates",
+      "en" : "indicates"
+    },
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "64"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP31i_is_dimension_of",
+    "inverse" : "67",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "VP31i_is_dimension_of",
+      "en" : "is dimension of"
+    },
+    "domain" : "21",
+    "attributes" : [ "object" ],
+    "id" : "66"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP54_has_unit",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "62",
+    "label" : {
+      "IRI-based" : "VP54_has_unit",
+      "en" : "has unit"
+    },
+    "domain" : "40",
+    "attributes" : [ "object" ],
+    "id" : "63"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP40i_is_evidence_of",
+    "inverse" : "70",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "VP40i_is_evidence_of",
+      "en" : "is evidence of"
+    },
+    "domain" : "69",
+    "attributes" : [ "object" ],
+    "id" : "68"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP30_has_geometrical_representation",
+    "inverse" : "72",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "54",
+    "label" : {
+      "IRI-based" : "VP30_has_geometrical_representation",
+      "en" : "has geometrical representation"
+    },
+    "domain" : "5",
+    "attributes" : [ "object" ],
+    "id" : "71"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP31_has_dimension",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "21",
+    "label" : {
+      "IRI-based" : "VP31_has_dimension",
+      "en" : "has dimension"
+    },
+    "domain" : "5",
+    "attributes" : [ "object" ],
+    "id" : "67"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP57_assigned",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "58",
+    "label" : {
+      "IRI-based" : "VP57_assigned",
+      "en" : "assigned"
+    },
+    "domain" : "52",
+    "attributes" : [ "object" ],
+    "id" : "59"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP9_has_digital_representation",
+    "inverse" : "76",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "73",
+    "label" : {
+      "IRI-based" : "VP9_has_digital_representation",
+      "en" : "has digital representation"
+    },
+    "domain" : "31",
+    "attributes" : [ "object" ],
+    "id" : "75"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP11_has_component",
+    "inverse" : "78",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "31",
+    "label" : {
+      "IRI-based" : "VP11_has_component",
+      "en" : "has component"
+    },
+    "domain" : "73",
+    "attributes" : [ "object" ],
+    "id" : "77"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP17i_is_version_identifier_of",
+    "inverse" : "81",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "VP17i_is_version_identifier_of",
+      "en" : "is version identifier of"
+    },
+    "domain" : "80",
+    "attributes" : [ "object" ],
+    "id" : "79"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP22_assigned",
+    "inverse" : "84",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "83",
+    "label" : {
+      "IRI-based" : "VP22_assigned",
+      "en" : "assigned"
+    },
+    "domain" : "28",
+    "attributes" : [ "object" ],
+    "id" : "82"
+  }, {
+    "range" : "55",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "85"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP6i_identifies",
+    "inverse" : "87",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "73",
+    "label" : {
+      "IRI-based" : "VP6i_identifies",
+      "en" : "identifies"
+    },
+    "domain" : "6",
+    "attributes" : [ "object" ],
+    "id" : "86"
+  }, {
+    "range" : "55",
+    "domain" : "54",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "88"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP37_has_component",
+    "inverse" : "90",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "20",
+    "label" : {
+      "IRI-based" : "VP37_has_component",
+      "en" : "has component"
+    },
+    "domain" : "54",
+    "attributes" : [ "object" ],
+    "id" : "89"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP1i_is_domain_of",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "VP1i_is_domain_of",
+      "en" : "is domain of"
+    },
+    "domain" : "34",
+    "attributes" : [ "object" ],
+    "id" : "35"
+  }, {
+    "range" : "55",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "91"
+  }, {
+    "range" : "6",
+    "domain" : "80",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "92"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP5i_identifies",
+    "inverse" : "94",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "VP5i_identifies",
+      "en" : "identifies"
+    },
+    "domain" : "6",
+    "attributes" : [ "object" ],
+    "id" : "93"
+  }, {
+    "range" : "6",
+    "domain" : "56",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "95"
+  }, {
+    "range" : "97",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "96"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP12i_is_component_of",
+    "inverse" : "99",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "VP12i_is_component_of",
+      "en" : "is component of"
+    },
+    "domain" : "13",
+    "attributes" : [ "object" ],
+    "id" : "98"
+  }, {
+    "range" : "6",
+    "domain" : "42",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "100"
+  }, {
+    "range" : "102",
+    "domain" : "29",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "101"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP49_has_type",
+    "inverse" : "104",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "VP49_has_type",
+      "en" : "has type"
+    },
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "103"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP36_has_evidence_on",
+    "inverse" : "106",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "VP36_has_evidence_on",
+      "en" : "has evidence on"
+    },
+    "domain" : "9",
+    "attributes" : [ "object" ],
+    "id" : "105"
+  }, {
+    "range" : "108",
+    "domain" : "5",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "107"
+  }, {
+    "range" : "108",
+    "domain" : "69",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "109"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP6_is_identified_by",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "VP6_is_identified_by",
+      "en" : "is identified by"
+    },
+    "domain" : "73",
+    "attributes" : [ "object" ],
+    "id" : "87"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP14i_identifies",
+    "inverse" : "111",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "VP14i_identifies",
+      "en" : "identifies"
+    },
+    "domain" : "6",
+    "attributes" : [ "object" ],
+    "id" : "110"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP32i_identifies",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "VP32i_identifies",
+      "en" : "identifies"
+    },
+    "domain" : "6",
+    "attributes" : [ "object" ],
+    "id" : "7"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP18_is_authored",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "16",
+    "label" : {
+      "IRI-based" : "VP18_is_authored",
+      "en" : "is authored"
+    },
+    "domain" : "80",
+    "attributes" : [ "object" ],
+    "id" : "112"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP42_has_sequence_identifier",
+    "inverse" : "114",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "56",
+    "label" : {
+      "IRI-based" : "VP42_has_sequence_identifier",
+      "en" : "has sequence identifier"
+    },
+    "domain" : "14",
+    "attributes" : [ "object" ],
+    "id" : "113"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP61i_is_reference_of",
+    "inverse" : "116",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "73",
+    "label" : {
+      "IRI-based" : "VP61i_is_reference_of",
+      "en" : "is reference of"
+    },
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "115"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP19_is_authored",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "16",
+    "label" : {
+      "IRI-based" : "VP19_is_authored",
+      "en" : "is authored"
+    },
+    "domain" : "5",
+    "attributes" : [ "object" ],
+    "id" : "117"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP30i_geometrically_represents",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "VP30i_geometrically_represents",
+      "en" : "geometrically represents"
+    },
+    "domain" : "54",
+    "attributes" : [ "object" ],
+    "id" : "72"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP35_has_evidence_on",
+    "inverse" : "119",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "VP35_has_evidence_on",
+      "en" : "has evidence on"
+    },
+    "domain" : "54",
+    "attributes" : [ "object" ],
+    "id" : "118"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP2i_is_domain_of",
+    "inverse" : "121",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "73",
+    "label" : {
+      "IRI-based" : "VP2i_is_domain_of",
+      "en" : "is domain of"
+    },
+    "domain" : "34",
+    "attributes" : [ "object" ],
+    "id" : "120"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP53_has_dimension_equivalent",
+    "inverse" : "123",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "40",
+    "label" : {
+      "IRI-based" : "VP53_has_dimension_equivalent",
+      "en" : "has dimension equivalent"
+    },
+    "domain" : "21",
+    "attributes" : [ "object" ],
+    "id" : "122"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP34_has_reference_on",
+    "inverse" : "125",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "VP34_has_reference_on",
+      "en" : "has reference on"
+    },
+    "domain" : "9",
+    "attributes" : [ "object" ],
+    "id" : "124"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP27_assigned_accuracy_to",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "VP27_assigned_accuracy_to",
+      "en" : "assigned accuracy to"
+    },
+    "domain" : "17",
+    "attributes" : [ "object" ],
+    "id" : "126"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP20_carried_out_by",
+    "inverse" : "128",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "16",
+    "label" : {
+      "IRI-based" : "VP20_carried_out_by",
+      "en" : "carried out by"
+    },
+    "domain" : "28",
+    "attributes" : [ "object" ],
+    "id" : "127"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP45_has_number_of_primitive_entities",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "44",
+    "label" : {
+      "IRI-based" : "VP45_has_number_of_primitive_entities",
+      "en" : "has number of primitive entities"
+    },
+    "domain" : "20",
+    "attributes" : [ "object" ],
+    "id" : "129"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP9i_digitally_represents",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "31",
+    "label" : {
+      "IRI-based" : "VP9i_digitally_represents",
+      "en" : "digitally represents"
+    },
+    "domain" : "73",
+    "attributes" : [ "object" ],
+    "id" : "76"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP55i_is_value_of",
+    "inverse" : "131",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "40",
+    "label" : {
+      "IRI-based" : "VP55i_is_value_of",
+      "en" : "is value of"
+    },
+    "domain" : "44",
+    "attributes" : [ "object" ],
+    "id" : "130"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP44_has_dimension",
+    "inverse" : "133",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "21",
+    "label" : {
+      "IRI-based" : "VP44_has_dimension",
+      "en" : "has dimension"
+    },
+    "domain" : "26",
+    "attributes" : [ "object" ],
+    "id" : "132"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP36i_is_evidence_of",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "VP36i_is_evidence_of",
+      "en" : "is evidence of"
+    },
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "106"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP11i_is_component_of",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "73",
+    "label" : {
+      "IRI-based" : "VP11i_is_component_of",
+      "en" : "is component of"
+    },
+    "domain" : "31",
+    "attributes" : [ "object" ],
+    "id" : "78"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP22i_was_assigned_by",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "28",
+    "label" : {
+      "IRI-based" : "VP22i_was_assigned_by",
+      "en" : "was assigned by"
+    },
+    "domain" : "83",
+    "attributes" : [ "object" ],
+    "id" : "84"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP37i_is_component_of",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "54",
+    "label" : {
+      "IRI-based" : "VP37i_is_component_of",
+      "en" : "is component of"
+    },
+    "domain" : "20",
+    "attributes" : [ "object" ],
+    "id" : "90"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP3i_is_type_of",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "VP3i_is_type_of",
+      "en" : "is type of"
+    },
+    "domain" : "2",
+    "attributes" : [ "object" ],
+    "id" : "24"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP4i_is_type_of",
+    "inverse" : "135",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "73",
+    "label" : {
+      "IRI-based" : "VP4i_is_type_of",
+      "en" : "is type of"
+    },
+    "domain" : "2",
+    "attributes" : [ "object" ],
+    "id" : "134"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP7i_is_evidence_of",
+    "inverse" : "137",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "31",
+    "label" : {
+      "IRI-based" : "VP7i_is_evidence_of",
+      "en" : "is evidence of"
+    },
+    "domain" : "73",
+    "attributes" : [ "object" ],
+    "id" : "136"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP33i_is_reference_of",
+    "inverse" : "139",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "54",
+    "label" : {
+      "IRI-based" : "VP33i_is_reference_of",
+      "en" : "is reference of"
+    },
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "138"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP56_has_type",
+    "inverse" : "141",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "58",
+    "label" : {
+      "IRI-based" : "VP56_has_type",
+      "en" : "has type"
+    },
+    "domain" : "21",
+    "attributes" : [ "object" ],
+    "id" : "140"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP47_has_type",
+    "inverse" : "143",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "69",
+    "label" : {
+      "IRI-based" : "VP47_has_type",
+      "en" : "has type"
+    },
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "142"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP48i_identifies",
+    "inverse" : "145",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "VP48i_identifies",
+      "en" : "identifies"
+    },
+    "domain" : "6",
+    "attributes" : [ "object" ],
+    "id" : "144"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP7_has_evidence_on",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "73",
+    "label" : {
+      "IRI-based" : "VP7_has_evidence_on",
+      "en" : "has evidence on"
+    },
+    "domain" : "31",
+    "attributes" : [ "object" ],
+    "id" : "137"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP41i_identifies",
+    "inverse" : "147",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "VP41i_identifies",
+      "en" : "identifies"
+    },
+    "domain" : "6",
+    "attributes" : [ "object" ],
+    "id" : "146"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP38_has_component",
+    "inverse" : "149",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "26",
+    "label" : {
+      "IRI-based" : "VP38_has_component",
+      "en" : "has component"
+    },
+    "domain" : "54",
+    "attributes" : [ "object" ],
+    "id" : "148"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP56i_is_type_of",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "21",
+    "label" : {
+      "IRI-based" : "VP56i_is_type_of",
+      "en" : "is type of"
+    },
+    "domain" : "58",
+    "attributes" : [ "object" ],
+    "id" : "141"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP12_has_component",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "VP12_has_component",
+      "en" : "has component"
+    },
+    "domain" : "13",
+    "attributes" : [ "object" ],
+    "id" : "99"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP25_assigned_accuracy_to",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "VP25_assigned_accuracy_to",
+      "en" : "assigned accuracy to"
+    },
+    "domain" : "17",
+    "attributes" : [ "object" ],
+    "id" : "150"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP13i_hierarchically_identifies",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "VP13i_hierarchically_identifies",
+      "en" : "hierarchically identifies"
+    },
+    "domain" : "42",
+    "attributes" : [ "object" ],
+    "id" : "43"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP24_assigned_uncertainty_to",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "VP24_assigned_uncertainty_to",
+      "en" : "assigned uncertainty to"
+    },
+    "domain" : "28",
+    "attributes" : [ "object" ],
+    "id" : "151"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP2_has_domain",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "34",
+    "label" : {
+      "IRI-based" : "VP2_has_domain",
+      "en" : "has domain"
+    },
+    "domain" : "73",
+    "attributes" : [ "object" ],
+    "id" : "121"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP49i_is_type_of",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "VP49i_is_type_of",
+      "en" : "is type of"
+    },
+    "domain" : "2",
+    "attributes" : [ "object" ],
+    "id" : "104"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP44i_is_dimension_of",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "26",
+    "label" : {
+      "IRI-based" : "VP44i_is_dimension_of",
+      "en" : "is dimension of"
+    },
+    "domain" : "21",
+    "attributes" : [ "object" ],
+    "id" : "133"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP38i_is_component_of",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "54",
+    "label" : {
+      "IRI-based" : "VP38i_is_component_of",
+      "en" : "is component of"
+    },
+    "domain" : "26",
+    "attributes" : [ "object" ],
+    "id" : "149"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP59i_is_type_of",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "VP59i_is_type_of",
+      "en" : "is type of"
+    },
+    "domain" : "2",
+    "attributes" : [ "object" ],
+    "id" : "3"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP61_has_reference_on",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "VP61_has_reference_on",
+      "en" : "has reference on"
+    },
+    "domain" : "73",
+    "attributes" : [ "object" ],
+    "id" : "116"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP62i_is_component_of",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "26",
+    "label" : {
+      "IRI-based" : "VP62i_is_component_of",
+      "en" : "is component of"
+    },
+    "domain" : "14",
+    "attributes" : [ "object" ],
+    "id" : "27"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP60i_is_reference_of",
+    "inverse" : "153",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "VP60i_is_reference_of",
+      "en" : "is reference of"
+    },
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "152"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP58i_is_type_of",
+    "inverse" : "155",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "VP58i_is_type_of",
+      "en" : "is type of"
+    },
+    "domain" : "9",
+    "attributes" : [ "object" ],
+    "id" : "154"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP47i_is_type_of",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "VP47i_is_type_of",
+      "en" : "is type of"
+    },
+    "domain" : "69",
+    "attributes" : [ "object" ],
+    "id" : "143"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP42i_is_sequence_identifier_of",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "VP42i_is_sequence_identifier_of",
+      "en" : "is sequence identifier of"
+    },
+    "domain" : "56",
+    "attributes" : [ "object" ],
+    "id" : "114"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP34i_is_reference_of",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "VP34i_is_reference_of",
+      "en" : "is reference of"
+    },
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "125"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP41_is_identified_by",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "VP41_is_identified_by",
+      "en" : "is identified by"
+    },
+    "domain" : "14",
+    "attributes" : [ "object" ],
+    "id" : "147"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP23i_was_assigned_by",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "17",
+    "label" : {
+      "IRI-based" : "VP23i_was_assigned_by",
+      "en" : "was assigned by"
+    },
+    "domain" : "49",
+    "attributes" : [ "object" ],
+    "id" : "50"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP26_assigned_uncertainty_to",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "VP26_assigned_uncertainty_to",
+      "en" : "assigned uncertainty to"
+    },
+    "domain" : "28",
+    "attributes" : [ "object" ],
+    "id" : "156"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP35i_is_evidence_of",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "54",
+    "label" : {
+      "IRI-based" : "VP35i_is_evidence_of",
+      "en" : "is evidence of"
+    },
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "119"
+  }, {
+    "range" : "11",
+    "domain" : "14",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "157"
+  }, {
+    "range" : "54",
+    "domain" : "20",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "158"
+  }, {
+    "range" : "54",
+    "domain" : "26",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "159"
+  }, {
+    "range" : "73",
+    "domain" : "31",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "160"
+  }, {
+    "range" : "74",
+    "domain" : "73",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "161"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP55_has_value",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "44",
+    "label" : {
+      "IRI-based" : "VP55_has_value",
+      "en" : "has value"
+    },
+    "domain" : "40",
+    "attributes" : [ "object" ],
+    "id" : "131"
+  }, {
+    "range" : "2",
+    "domain" : "49",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "162"
+  }, {
+    "range" : "2",
+    "domain" : "83",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "163"
+  }, {
+    "range" : "2",
+    "domain" : "58",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "164"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP29i_morphologically_represents",
+    "inverse" : "166",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "54",
+    "label" : {
+      "IRI-based" : "VP29i_morphologically_represents",
+      "en" : "morphologically represents"
+    },
+    "domain" : "9",
+    "attributes" : [ "object" ],
+    "id" : "165"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP39i_is_component_of",
+    "inverse" : "168",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "20",
+    "label" : {
+      "IRI-based" : "VP39i_is_component_of",
+      "en" : "is component of"
+    },
+    "domain" : "14",
+    "attributes" : [ "object" ],
+    "id" : "167"
+  }, {
+    "range" : "11",
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "169"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP15i_is_digitally_represented",
+    "inverse" : "171",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "VP15i_is_digitally_represented",
+      "en" : "is digitally represented"
+    },
+    "domain" : "5",
+    "attributes" : [ "object" ],
+    "id" : "170"
+  }, {
+    "range" : "11",
+    "domain" : "13",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "172"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP28_has_morphological_representation",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "VP28_has_morphological_representation",
+      "en" : "has morphological representation"
+    },
+    "domain" : "5",
+    "attributes" : [ "object" ],
+    "id" : "10"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP29_has_morphological_representation",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "VP29_has_morphological_representation",
+      "en" : "has morphological representation"
+    },
+    "domain" : "54",
+    "attributes" : [ "object" ],
+    "id" : "166"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP15_has_digital_representation",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "VP15_has_digital_representation",
+      "en" : "has digital representation"
+    },
+    "domain" : "13",
+    "attributes" : [ "object" ],
+    "id" : "171"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP10_has_component",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "31",
+    "label" : {
+      "IRI-based" : "VP10_has_component",
+      "en" : "has component"
+    },
+    "domain" : "12",
+    "attributes" : [ "object" ],
+    "id" : "38"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP16_used_as_derivation_source",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "VP16_used_as_derivation_source",
+      "en" : "used as derivation source"
+    },
+    "domain" : "69",
+    "attributes" : [ "object" ],
+    "id" : "173"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP60_has_reference_on",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "VP60_has_reference_on",
+      "en" : "has reference on"
+    },
+    "domain" : "12",
+    "attributes" : [ "object" ],
+    "id" : "153"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP4_has_type",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "VP4_has_type",
+      "en" : "has type"
+    },
+    "domain" : "73",
+    "attributes" : [ "object" ],
+    "id" : "135"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP52_is_indicated_on",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "VP52_is_indicated_on",
+      "en" : "is indicated on"
+    },
+    "domain" : "21",
+    "attributes" : [ "object" ],
+    "id" : "65"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP8_is_identified_by",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "VP8_is_identified_by",
+      "en" : "is identified by"
+    },
+    "domain" : "31",
+    "attributes" : [ "object" ],
+    "id" : "32"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP53i_is_equivalent_dimension_of",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "21",
+    "label" : {
+      "IRI-based" : "VP53i_is_equivalent_dimension_of",
+      "en" : "is equivalent dimension of"
+    },
+    "domain" : "40",
+    "attributes" : [ "object" ],
+    "id" : "123"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP40_has_evidence_on",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "69",
+    "label" : {
+      "IRI-based" : "VP40_has_evidence_on",
+      "en" : "has evidence on"
+    },
+    "domain" : "9",
+    "attributes" : [ "object" ],
+    "id" : "70"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP21_carried_out_by",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "16",
+    "label" : {
+      "IRI-based" : "VP21_carried_out_by",
+      "en" : "carried out by"
+    },
+    "domain" : "17",
+    "attributes" : [ "object" ],
+    "id" : "18"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP48_is_identified_by",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "VP48_is_identified_by",
+      "en" : "is identified by"
+    },
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "145"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP51_is_deducted_from",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "VP51_is_deducted_from",
+      "en" : "is deducted from"
+    },
+    "domain" : "21",
+    "attributes" : [ "object" ],
+    "id" : "175"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP20i_performed",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "28",
+    "label" : {
+      "IRI-based" : "VP20i_performed",
+      "en" : "performed"
+    },
+    "domain" : "16",
+    "attributes" : [ "object" ],
+    "id" : "128"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP33_has_reference_on",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "VP33_has_reference_on",
+      "en" : "has reference on"
+    },
+    "domain" : "54",
+    "attributes" : [ "object" ],
+    "id" : "139"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP43i_is_dimension_of",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "20",
+    "label" : {
+      "IRI-based" : "VP43i_is_dimension_of",
+      "en" : "is dimension of"
+    },
+    "domain" : "21",
+    "attributes" : [ "object" ],
+    "id" : "22"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP17_has_version_identifier",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "80",
+    "label" : {
+      "IRI-based" : "VP17_has_version_identifier",
+      "en" : "has version identifier"
+    },
+    "domain" : "5",
+    "attributes" : [ "object" ],
+    "id" : "81"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP14_is_identified_by",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "VP14_is_identified_by",
+      "en" : "is identified by"
+    },
+    "domain" : "13",
+    "attributes" : [ "object" ],
+    "id" : "111"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP50_is_interpreted_from",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "VP50_is_interpreted_from",
+      "en" : "is interpreted from"
+    },
+    "domain" : "21",
+    "attributes" : [ "object" ],
+    "id" : "176"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP5_is_identified_by",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "VP5_is_identified_by",
+      "en" : "is identified by"
+    },
+    "domain" : "12",
+    "attributes" : [ "object" ],
+    "id" : "94"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP39_has_component",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "VP39_has_component",
+      "en" : "has component"
+    },
+    "domain" : "20",
+    "attributes" : [ "object" ],
+    "id" : "168"
+  }, {
+    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP58_has_type",
+    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "VP58_has_type",
+      "en" : "has type"
+    },
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "155"
+  } ]
+}

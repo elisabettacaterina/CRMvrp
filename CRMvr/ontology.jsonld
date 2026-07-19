@@ -1,0 +1,2237 @@
+[ {
+  "@id" : "http://www.cidoc-crm.org/cidoc-crm/E21_Person",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.cidoc-crm.org/cidoc-crm/E24_Physical_Human-Made_Thing",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.cidoc-crm.org/cidoc-crm/E42_Identifier",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.cidoc-crm.org/cidoc-crm/E54_Dimension",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.cidoc-crm.org/cidoc-crm/E60_Number",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.cidoc-crm.org/cidoc-crm/E77_Persistent_Item",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.cidoc-crm.org/extensions/crmdig/D1_Digital_Object",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.cidoc-crm.org/extensions/crmsci/S5_Inference_Making",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.researchspace.org/resource/system/Container",
+  "http://www.w3.org/ns/ldp#contains" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#notation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/ldp#Resource",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3.org/ns/ldp#contains",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/prov#Entity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3.org/ns/prov#generatedAtTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/prov#wasAttributedTo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/ldp#Resource"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Entity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Ontology for Virtual Reconstruction Processes (VRP) aligned to CIDOC CRM."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "VRP version 1.0.0"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "en",
+    "@value" : "1.0.0"
+  } ],
+  "http://www.w3.org/ns/prov#generatedAtTime" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2026-06-24T12:10:19.888Z"
+  } ],
+  "http://www.w3.org/ns/prov#wasAttributedTo" : [ {
+    "@id" : "http://www.researchspace.org/resource/user/admin"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/V10_Author",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class comprise instances of V10 author of the version of the 3D model of a V5 Component Element."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "V10 Author"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.cidoc-crm.org/cidoc-crm/E21_Person"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "V10"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Author"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/V11_Geometrical_Representation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The class comprise the visual knowledge about the geometrical representation of a V5 Component Element."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "V11 Geometrical Representation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "V11"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Geometrical Representation"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/V12_Primitive_Entity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The class comprise the geometrical item that can be assumed as a geometrical primitive necessary for the construction of V14 Profile and V15 Path."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "V12 Primitive Entity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "V12"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Primitive Entity"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/V13_Order_of_Sequence_Identifier",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The class comprise an identifier that declare the E42 Identifier assigned to the V12 Primitive Entity and its position in the geometrical sequence of primitive elements that create V14 profile or V15 Path."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "V13 Order of Sequence Identifier"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.cidoc-crm.org/cidoc-crm/E42_Identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "V13"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Order of Sequence Identifier"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/V14_Profile",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The class comprise the geometrical representation of the physical features of a profile in the vertical plane containing both endpoints of the profile. The profile could be intended as a vertical section of the V11 Geometrical Representation."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "V14 Profile"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V11_Geometrical_Representation"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "V14"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Profile"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/V15_Path",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The class comprise the geometrical representation of the physical features of a path in the horizontal plane containing both endpoints of the path."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "V15 Path"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V11_Geometrical_Representation"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "V15"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Path"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/V16_Morphological_Representation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The class comprise immaterial items related to knoledge about the morphological representation of a V5 component element."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "V16 Morphological Representation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "V16"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Morphological Representation"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/V17_Source",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class comprise instances of V17 Sources and E31 Documents used in the Virtual Reconstruction process as evidence of reference of 3D modelling."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "V17 Source"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "V17"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Source"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/V18_Transparency_Inference_Making",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class comprises the action of making propositions and statements about particular geometrical or morphological representations of an V4 Find, its possible virtual representations (V6 3D Find), V17 sources and 3D objects. It includes evaluations and interpretations based on sources available for 3D reconstructions with the aim to fill the gap between documentation and 3D model obtained from them."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "V18 Transparency Inference Making"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.cidoc-crm.org/extensions/crmsci/S5_Inference_Making"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "V18"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Transparency Inference Making"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/V19_Uncertainty_Evaluation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class comprises the action of make propositions on data observable from a V17 Source or E31 Document by making evaluations based on the V21 Uncertainty Grade of informations on morphological and geometrical representations of the Cultural Heritage or Immaterial Heritage that we want to digitally reproduce."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "V19 Uncertainty Evaluation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V18_Transparency_Inference_Making"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "V19"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Uncertainty Evaluation"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/V1_Domain",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class includes all entities attributable to cultural heritage. Defines an area of interest or an area of which the object of reconstruction process is part of. Heritage includes buildings and historic places, monuments, artifacts, etc., including objects significant to the archaeology, architecture, science or technology of a specific culture."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "V1 Domain"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.cidoc-crm.org/cidoc-crm/E77_Persistent_Item"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "V1"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Domain"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/V20_Accuracy_Evaluation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class comprises the action of make propositions on data observable from a V17 Source or E31 Document by making evaluations based on the V22 Accuracy Grade of informations on morphological and geometrical representations of the Cultural Heritage or Immaterial Heritage that it is possible to digitally reproduce."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "V20 Accuracy Evaluation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V18_Transparency_Inference_Making"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "V20"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Accuracy Evaluation"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/V21_Uncertainty_Grade",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class comprise instances of V21 Unvcertainty Grade that could be assigned to a V17 Source."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "V21 Uncertainty Grade"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.cidoc-crm.org/cidoc-crm/E55_Type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "V21"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Uncertainty Grade"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/V22_Accuracy_Grade",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class comprise instances of V22 Accuracy Grade that could be assigned to a V17 Source."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "V22 Accuracy Grade"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.cidoc-crm.org/cidoc-crm/E55_Type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "V22"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Accuracy Grade"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/V23_Dimension_Equivalent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class comprises equivalent value that can be attribute to an E54 Dimension according with the modelling software used. The 3D modelling software usually does not use the same E54 Dimension values and units indicated on a V17 source or E31 Document available."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "V23 Dimension Equivalent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "V23"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Dimension Equivalent"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/V24_Type_of_Dimension_Provenance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class comprises Type of Dimensions in relation withw their reference V17 Sources or E31 Documents. In Virtual Reconstruction Processes are defined ony three enumerated Types of Dimension Provenance: Indicated, Deducted, Interpreted."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "V24 Type of Dimension Provenance"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.cidoc-crm.org/cidoc-crm/E55_Type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "V24"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Type of Dimension Provenance"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/V25_Evaluation_of_Dimension_Provenance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class comprises the action of make propositions about Dimension Provenance: connecting the E45 Dimension and its values with a V17 Source or E31 Document used for the Virtual Recontruction."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "V25 Evaluation of Dimension Provenance"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V18_Transparency_Inference_Making"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "V25"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Evaluation of Dimension Provenance"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/V2_Immaterial_Heritage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class comprises immaterial heritage that are documented in some way by any kind of source and that can be virtually reproduced."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "V2 Immaterial Heritage"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "V2"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Immaterial Heritage"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/V3_Cultural_Heritage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Cultural heritage includes buildings and historic places, monuments, artifacts, etc., including objects significant to the archaeology, architecture, science or technology of a specific culture that had a certain or documented physical existance."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "V3 Cultural Heritage"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.cidoc-crm.org/cidoc-crm/E24_Physical_Human-Made_Thing"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "V3"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Cultural Heritage"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/V4_Find",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class comprises physical evidence of the Heritage object that can be virtually reconstructed by SFM process (D2) or other methods."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "V4 Find"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V3_Cultural_Heritage"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "V4"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Find"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/V5_Component_Element",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class comprises instances that are considered functional units for the whole object, accordind with the declared domain. It comprise V5 component elements that are themselves instances of V5 components elements. The V5 component element could be further analyzed into sub-components creating a hierarchy of part decomposition that is declared by V7 Hierarchy Identifier."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "V5 Component Element"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "V5"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Component Element"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/V6_3D_Find",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class comprise the immaterial representation of V4 Find that are represented as a 3D model obtained by a D2 Digitization process."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "V6 3D Find"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.cidoc-crm.org/extensions/crmdig/D1_Digital_Object"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "V6"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "3D Find"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/V7_Hierarchy_Identifier",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class comprise the level of hierachical aggregation of the component in relation with the whole element. Depending on the domain, its classifications and its controlled vocabulary the sub-elements that compose the artifact could variate creating a hierarchy of part decomposition that is declared by V7 Hierarchy Identifier."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "V7 Hierarchy Identifier"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.cidoc-crm.org/cidoc-crm/E42_Identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "V7"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Hierarchy Identifier"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/V8_3D_Object",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Three-dimensional (3D) models represent an artefact, using a collection of points in 3D space, connected by various geometric entities such as triangles, lines, curved surfaces, etc. A 3D digital object define the volume of the object that represent. In heritage virtual reconstructions is preferred the use of solid models that are usually built with constructive solid geometry."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "V8 3D Object"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.cidoc-crm.org/extensions/crmdig/D1_Digital_Object"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "V8"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "3D Object"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/V9_Version_Identifier",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class comprise an identifier that declare the E42 Identifier assigned to each 3D modelled version of the same V8 3D Object based on different evidence/reference."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "V9 Version Identifier"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.cidoc-crm.org/cidoc-crm/E42_Identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "V9"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Version Identifier"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP10_has_component",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V2_Immaterial_Heritage"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has component"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V4_Find"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP10i_is_component_of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V4_Find"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is component of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V2_Immaterial_Heritage"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/VP10_has_component"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP11_has_component",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V3_Cultural_Heritage"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has component"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V4_Find"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/VP11i_is_component_of"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP11i_is_component_of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V4_Find"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is component of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V3_Cultural_Heritage"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP12_has_component",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V5_Component_Element"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has component"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V5_Component_Element"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP12i_is_component_of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V5_Component_Element"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is component of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V5_Component_Element"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/VP12_has_component"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP13_is_hierarchically_identified",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V5_Component_Element"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is hierarchically identified"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V7_Hierarchy_Identifier"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/VP13i_hierarchically_identifies"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP13i_hierarchically_identifies",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V7_Hierarchy_Identifier"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hierarchically identifies"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V5_Component_Element"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP14_is_identified_by",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V5_Component_Element"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is identified by"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.cidoc-crm.org/cidoc-crm/E42_Identifier"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP14i_identifies",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cidoc-crm.org/cidoc-crm/E42_Identifier"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "identifies"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V5_Component_Element"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/VP14_is_identified_by"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP15_has_digital_representation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V5_Component_Element"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has digital representation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V8_3D_Object"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP15i_is_digitally_represented",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V8_3D_Object"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is digitally represented"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V5_Component_Element"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/VP15_has_digital_representation"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP16_used_as_derivation_source",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V6_3D_Find"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "used as derivation source"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V8_3D_Object"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP17_has_version_identifier",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V8_3D_Object"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has version identifier"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V9_Version_Identifier"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP17i_is_version_identifier_of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V9_Version_Identifier"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is version identifier of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V8_3D_Object"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/VP17_has_version_identifier"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP18_is_authored",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V9_Version_Identifier"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is authored"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V10_Author"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP19_is_authored",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V8_3D_Object"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is authored"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V10_Author"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP1_has_domain",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V2_Immaterial_Heritage"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has domain"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V1_Domain"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/VP1i_is_domain_of"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP1i_is_domain_of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V1_Domain"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is domain of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V2_Immaterial_Heritage"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP20_carried_out_by",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V19_Uncertainty_Evaluation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "carried out by"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V10_Author"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/VP20i_performed"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP20i_performed",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V10_Author"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "performed"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V19_Uncertainty_Evaluation"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP21_carried_out_by",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V20_Accuracy_Evaluation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "carried out by"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V10_Author"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP21i_performed",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V10_Author"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "performed"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V20_Accuracy_Evaluation"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/VP21_carried_out_by"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP22_assigned",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V19_Uncertainty_Evaluation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "assigned"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V21_Uncertainty_Grade"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/VP22i_was_assigned_by"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP22i_was_assigned_by",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V21_Uncertainty_Grade"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "was assigned by"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V19_Uncertainty_Evaluation"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP23_assigned",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V20_Accuracy_Evaluation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "assigned"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V22_Accuracy_Grade"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/VP23i_was_assigned_by"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP23i_was_assigned_by",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V22_Accuracy_Grade"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "was assigned by"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V20_Accuracy_Evaluation"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP24_assigned_uncertainty_to",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V19_Uncertainty_Evaluation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "assigned uncertainty to"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V8_3D_Object"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP25_assigned_accuracy_to",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V20_Accuracy_Evaluation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "assigned accuracy to"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V8_3D_Object"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP26_assigned_uncertainty_to",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V19_Uncertainty_Evaluation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "assigned uncertainty to"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V17_Source"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP27_assigned_accuracy_to",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V20_Accuracy_Evaluation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "assigned accuracy to"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V17_Source"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP28_has_morphological_representation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V8_3D_Object"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has morphological representation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V16_Morphological_Representation"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP28i_morphologically_represents",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V16_Morphological_Representation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "morphologically represents"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V8_3D_Object"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/VP28_has_morphological_representation"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP29_has_morphological_representation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V11_Geometrical_Representation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has morphological representation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V16_Morphological_Representation"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP29i_morphologically_represents",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V16_Morphological_Representation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "morphologically represents"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V11_Geometrical_Representation"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/VP29_has_morphological_representation"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP2_has_domain",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V3_Cultural_Heritage"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has domain"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V1_Domain"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP2i_is_domain_of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V1_Domain"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is domain of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V3_Cultural_Heritage"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/VP2_has_domain"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP30_has_geometrical_representation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V8_3D_Object"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has geometrical representation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V11_Geometrical_Representation"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/VP30i_geometrically_represents"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP30i_geometrically_represents",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V11_Geometrical_Representation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "geometrically represents"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V8_3D_Object"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP31_has_dimension",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V8_3D_Object"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has dimension"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP31i_is_dimension_of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is dimension of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V8_3D_Object"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/VP31_has_dimension"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP32_is_identified_by",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V8_3D_Object"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is identified by"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.cidoc-crm.org/cidoc-crm/E42_Identifier"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/VP32i_identifies"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP32i_identifies",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cidoc-crm.org/cidoc-crm/E42_Identifier"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "identifies"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V8_3D_Object"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP33_has_reference_on",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V11_Geometrical_Representation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has reference on"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V17_Source"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP33i_is_reference_of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V17_Source"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is reference of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V11_Geometrical_Representation"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/VP33_has_reference_on"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP34_has_reference_on",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V16_Morphological_Representation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has reference on"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V17_Source"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/VP34i_is_reference_of"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP34i_is_reference_of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V17_Source"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is reference of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V16_Morphological_Representation"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP35_has_evidence_on",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V11_Geometrical_Representation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has evidence on"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V17_Source"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/VP35i_is_evidence_of"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP35i_is_evidence_of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V17_Source"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is evidence of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V11_Geometrical_Representation"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP36_has_evidence_on",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V16_Morphological_Representation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has evidence on"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V17_Source"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/VP36i_is_evidence_of"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP36i_is_evidence_of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V17_Source"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is evidence of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V16_Morphological_Representation"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP37_has_component",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V11_Geometrical_Representation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has component"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V14_Profile"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/VP37i_is_component_of"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP37i_is_component_of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V14_Profile"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is component of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V11_Geometrical_Representation"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP38_has_component",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V11_Geometrical_Representation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has component"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V15_Path"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/VP38i_is_component_of"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP38i_is_component_of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V15_Path"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is component of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V11_Geometrical_Representation"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP39_has_component",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V14_Profile"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has component"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V12_Primitive_Entity"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP39i_is_component_of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V12_Primitive_Entity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is component of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V14_Profile"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/VP39_has_component"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP3_has_type",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V2_Immaterial_Heritage"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.cidoc-crm.org/cidoc-crm/E55_Type"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/VP3i_is_type_of"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP3i_is_type_of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cidoc-crm.org/cidoc-crm/E55_Type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is type of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V2_Immaterial_Heritage"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP40_has_evidence_on",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V16_Morphological_Representation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has evidence on"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V6_3D_Find"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP40i_is_evidence_of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V6_3D_Find"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is evidence of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V16_Morphological_Representation"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/VP40_has_evidence_on"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP41_is_identified_by",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V12_Primitive_Entity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is identified by"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.cidoc-crm.org/cidoc-crm/E42_Identifier"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP41i_identifies",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cidoc-crm.org/cidoc-crm/E42_Identifier"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "identifies"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V12_Primitive_Entity"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/VP41_is_identified_by"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP42_has_sequence_identifier",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V12_Primitive_Entity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has sequence identifier"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V13_Order_of_Sequence_Identifier"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/VP42i_is_sequence_identifier_of"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP42i_is_sequence_identifier_of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V13_Order_of_Sequence_Identifier"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is sequence identifier of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V12_Primitive_Entity"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP43_has_dimension",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V14_Profile"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has dimension"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/VP43i_is_dimension_of"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP43i_is_dimension_of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is dimension of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V14_Profile"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP44_has_dimension",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V15_Path"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has dimension"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/VP44i_is_dimension_of"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP44i_is_dimension_of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is dimension of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V15_Path"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP45_has_number_of_primitive_entities",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V14_Profile"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has number of primitive entities"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.cidoc-crm.org/cidoc-crm/E60_Number"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP46_has_number_of_primitive_entities",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V15_Path"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has number of primitive entities"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.cidoc-crm.org/cidoc-crm/E60_Number"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP47_has_type",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V17_Source"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V6_3D_Find"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/VP47i_is_type_of"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP47i_is_type_of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V6_3D_Find"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is type of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V17_Source"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP48_is_identified_by",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V17_Source"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is identified by"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.cidoc-crm.org/cidoc-crm/E42_Identifier"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP48i_identifies",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cidoc-crm.org/cidoc-crm/E42_Identifier"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "identifies"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V17_Source"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/VP48_is_identified_by"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP49_has_type",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V17_Source"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.cidoc-crm.org/cidoc-crm/E55_Type"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/VP49i_is_type_of"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP49i_is_type_of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cidoc-crm.org/cidoc-crm/E55_Type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is type of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V17_Source"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP4_has_type",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V3_Cultural_Heritage"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.cidoc-crm.org/cidoc-crm/E55_Type"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP4i_is_type_of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cidoc-crm.org/cidoc-crm/E55_Type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is type of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V3_Cultural_Heritage"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/VP4_has_type"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP50_is_interpreted_from",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is interpreted from"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V17_Source"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP51_is_deducted_from",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is deducted from"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V17_Source"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP52_is_indicated_on",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is indicated on"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V17_Source"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP52i_indicates",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V17_Source"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "indicates"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/VP52_is_indicated_on"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP53_has_dimension_equivalent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has dimension equivalent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V23_Dimension_Equivalent"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/VP53i_is_equivalent_dimension_of"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP53i_is_equivalent_dimension_of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V23_Dimension_Equivalent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is equivalent dimension of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP54_has_unit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V23_Dimension_Equivalent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has unit"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP54i_is_unit_of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is unit of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V23_Dimension_Equivalent"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/VP54_has_unit"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP55_has_value",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V23_Dimension_Equivalent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has value"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.cidoc-crm.org/cidoc-crm/E60_Number"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP55i_is_value_of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cidoc-crm.org/cidoc-crm/E60_Number"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is value of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V23_Dimension_Equivalent"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/VP55_has_value"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP56_has_type",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V24_Type_of_Dimension_Provenance"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/VP56i_is_type_of"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP56i_is_type_of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V24_Type_of_Dimension_Provenance"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is type of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP57_assigned",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V25_Evaluation_of_Dimension_Provenance"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "assigned"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V24_Type_of_Dimension_Provenance"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP57i_was_assigned_by",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V24_Type_of_Dimension_Provenance"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "was assigned by"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V25_Evaluation_of_Dimension_Provenance"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/VP57_assigned"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP58_has_type",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V17_Source"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V16_Morphological_Representation"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP58i_is_type_of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V16_Morphological_Representation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is type of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V17_Source"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/VP58_has_type"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP59_has_type",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V17_Source"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.cidoc-crm.org/cidoc-crm/E55_Type"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/VP59i_is_type_of"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP59i_is_type_of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cidoc-crm.org/cidoc-crm/E55_Type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is type of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V17_Source"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP5_is_identified_by",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V2_Immaterial_Heritage"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is identified by"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.cidoc-crm.org/cidoc-crm/E42_Identifier"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP5i_identifies",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cidoc-crm.org/cidoc-crm/E42_Identifier"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "identifies"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V2_Immaterial_Heritage"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/VP5_is_identified_by"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP60_has_reference_on",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V2_Immaterial_Heritage"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has reference on"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V17_Source"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP60i_is_reference_of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V17_Source"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is reference of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V2_Immaterial_Heritage"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/VP60_has_reference_on"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP61_has_reference_on",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V3_Cultural_Heritage"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has reference on"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V17_Source"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP61i_is_reference_of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V17_Source"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is reference of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V3_Cultural_Heritage"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/VP61_has_reference_on"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP62_has_component",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V15_Path"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has component"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V12_Primitive_Entity"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/VP62i_is_component_of"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP62i_is_component_of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V12_Primitive_Entity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is component of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V15_Path"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP6_is_identified_by",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V3_Cultural_Heritage"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is identified by"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.cidoc-crm.org/cidoc-crm/E42_Identifier"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP6i_identifies",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cidoc-crm.org/cidoc-crm/E42_Identifier"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "identifies"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V3_Cultural_Heritage"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/VP6_is_identified_by"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP7_has_evidence_on",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V4_Find"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has evidence on"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V3_Cultural_Heritage"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP7i_is_evidence_of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V3_Cultural_Heritage"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is evidence of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V4_Find"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/VP7_has_evidence_on"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP8_is_identified_by",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V4_Find"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is identified by"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.cidoc-crm.org/cidoc-crm/E42_Identifier"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP8i_identifies",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.cidoc-crm.org/cidoc-crm/E42_Identifier"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "identifies"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V4_Find"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/VP8_is_identified_by"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP9_has_digital_representation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V4_Find"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has digital representation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V3_Cultural_Heritage"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/VP9i_digitally_represents"
+  } ]
+}, {
+  "@id" : "https://github.com/elisabettacaterina/CRMvr/VP9i_digitally_represents",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V3_Cultural_Heritage"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "digitally represents"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/elisabettacaterina/CRMvr/V4_Find"
+  } ]
+} ]
