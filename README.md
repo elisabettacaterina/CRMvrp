@@ -1,4 +1,7 @@
-# CRMvr
+# CRMvrc v.2
+
+
+# CRMvr v.1
 
 Virtual Reconstruction (VR) processes are, in most cases, the result of a series of activities related to the definition of a representation of Cultural Heritage.
 
@@ -23,4 +26,8 @@ The goal of the concept model is to provide support to:
 * Support the assignment of classification to Reference Sources used in VR to depict uncertainty of the 3D representation
 * Support the assignment of level of accuracy of VR elements that can be deducted from the Reference Source
 
+# References
+
 The model is built on the same principle of CIDOC-CRM. The model reuses, when appropriate part of the CIDOC-CRM classes and properties, and refers to other CRM extensions that were developed to ensure the completeness of documentation.
+
+
