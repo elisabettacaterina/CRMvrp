@@ -28,10 +28,8 @@ The v.1 of the Extension was encoded as CRMvr.
 The model was built on the same principle of CIDOC-CRM. The model was aligned to CIDOC-CRM classes and properties, and refers to other CRM extensions that were developed to ensure the completeness of documentation.
 
 ### References
-Apollonio, Fabrizio Ivan, & Giovannini, Elisabetta Caterina (2015). A paradata documentation methodology for the Uncertainty Visualization in digital reconstruction of CH artifacts. SCIRES-IT-SCIentific RESearch and Information Technology, 5(1), 1-24. DOI [10.2423/i22394303v5n1p1](http://www.sciresit.it/article/view/11415)
+Giovannini, Elisabetta Caterina (2022) Knowledge Representation in Architecture. Data modelling between Digital Humanities and H-BIM. Rome: Aracne Editrice. ISBN [979-12-5994-798-7](https://www.aracneeditrice.eu/it/pubblicazioni/knowledge-representation-in-architecture-elisabetta-caterina-giovannini-9791259945549.html)
 
 Giovannini, Elisabetta Caterina (2018) Virtual Reconstruction Information Management. A scientific method and 3D visualization of Virtual Reconstruction Processes., [Dissertation thesis], Alma Mater Studiorum Università di Bologna. Dottorato di ricerca in Architettura, XXX Ciclo. DOI [10.6092/unibo/amsdottorato/8330](https://amsdottorato.unibo.it/id/eprint/8330/)
 
-
-
-
+Apollonio, Fabrizio Ivan, & Giovannini, Elisabetta Caterina (2015). A paradata documentation methodology for the Uncertainty Visualization in digital reconstruction of CH artifacts. SCIRES-IT-SCIentific RESearch and Information Technology, 5(1), 1-24. DOI [10.2423/i22394303v5n1p1](http://www.sciresit.it/article/view/11415)
