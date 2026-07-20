@@ -2,11 +2,11 @@
   "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
   "header" : {
     "languages" : [ "en" ],
-    "baseIris" : [ "https://elisabettacaterina.github.io/CRMvrp/CRMvr", "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.cidoc-crm.org/extensions/crmdig", "http://www.cidoc-crm.org/extensions/crmsci", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/ns/prov", "http://www.w3.org/2001/XMLSchema", "http://www.w3.org/ns/ldp", "http://www.cidoc-crm.org/cidoc-crm" ],
+    "baseIris" : [ "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html", "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.cidoc-crm.org/extensions/crmdig", "http://www.cidoc-crm.org/extensions/crmsci", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/ns/prov", "http://www.w3.org/2001/XMLSchema", "http://www.w3.org/ns/ldp", "http://www.cidoc-crm.org/cidoc-crm" ],
     "title": {
     "undefined": "CRMvr Ontology"
     },
-    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html",
     "version" : "1.0.0",
     "author" : [ "Elisabetta Caterina GIOVANNINI" ],
     "description" : {
@@ -31,7 +31,7 @@
         {
           "identifier": "priorVersion",
           "language": "undefined",
-          "value": "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
+          "value": "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html",
           "type": "iri"
         }
       ],
@@ -233,7 +233,7 @@
       "IRI-based" : "Entity"
     },
     "individuals" : [ {
-      "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/",
+      "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html",
       "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
       "labels" : { }
     } ],
@@ -1435,7 +1435,7 @@
     "range" : "2",
     "label" : {
       "IRI-based" : "VP59_has_type",
-      "en" : "has type"
+      "en" : "VP59 has type"
     },
     "domain" : "1",
     "attributes" : [ "object" ],
@@ -1447,7 +1447,7 @@
     "range" : "6",
     "label" : {
       "IRI-based" : "VP32_is_identified_by",
-      "en" : "is identified by"
+      "en" : "VP32 is identified by"
     },
     "domain" : "5",
     "attributes" : [ "object" ],
@@ -1459,7 +1459,7 @@
     "range" : "5",
     "label" : {
       "IRI-based" : "VP28i_morphologically_represents",
-      "en" : "morphologically represents"
+      "en" : "VP28i morphologically represents"
     },
     "domain" : "9",
     "attributes" : [ "object" ],
@@ -1471,7 +1471,7 @@
     "range" : "17",
     "label" : {
       "IRI-based" : "VP21i_performed",
-      "en" : "performed"
+      "en" : "VP21i performed"
     },
     "domain" : "16",
     "attributes" : [ "object" ],
@@ -1483,7 +1483,7 @@
     "range" : "21",
     "label" : {
       "IRI-based" : "VP43_has_dimension",
-      "en" : "has dimension"
+      "en" : "VP43 has dimension"
     },
     "domain" : "20",
     "attributes" : [ "object" ],
@@ -1495,7 +1495,7 @@
     "range" : "2",
     "label" : {
       "IRI-based" : "VP3_has_type",
-      "en" : "has type"
+      "en" : "VP3 has type"
     },
     "domain" : "12",
     "attributes" : [ "object" ],
@@ -1507,7 +1507,7 @@
     "range" : "14",
     "label" : {
       "IRI-based" : "VP62_has_component",
-      "en" : "has component"
+      "en" : "VP62 has component"
     },
     "domain" : "26",
     "attributes" : [ "object" ],
@@ -1519,7 +1519,7 @@
     "range" : "31",
     "label" : {
       "IRI-based" : "VP8i_identifies",
-      "en" : "identifies"
+      "en" : "VP8i identifies"
     },
     "domain" : "6",
     "attributes" : [ "object" ],
@@ -1531,7 +1531,7 @@
     "range" : "34",
     "label" : {
       "IRI-based" : "VP1_has_domain",
-      "en" : "has domain"
+      "en" : "VP1 has domain"
     },
     "domain" : "12",
     "attributes" : [ "object" ],
@@ -1543,7 +1543,7 @@
     "range" : "12",
     "label" : {
       "IRI-based" : "VP10i_is_component_of",
-      "en" : "is component of"
+      "en" : "VP10i is component of"
     },
     "domain" : "31",
     "attributes" : [ "object" ],
@@ -1560,7 +1560,7 @@
     "range" : "42",
     "label" : {
       "IRI-based" : "VP13_is_hierarchically_identified",
-      "en" : "is hierarchically identified"
+      "en" : "VP13 is hierarchically identified"
     },
     "domain" : "13",
     "attributes" : [ "object" ],
@@ -1582,7 +1582,7 @@
     "range" : "49",
     "label" : {
       "IRI-based" : "VP23_assigned",
-      "en" : "assigned"
+      "en" : "VP23 assigned"
     },
     "domain" : "17",
     "attributes" : [ "object" ],
@@ -1604,7 +1604,7 @@
     "range" : "52",
     "label" : {
       "IRI-based" : "VP57i_was_assigned_by",
-      "en" : "was assigned by"
+      "en" : "VP57i was assigned by"
     },
     "domain" : "58",
     "attributes" : [ "object" ],
@@ -1615,7 +1615,7 @@
     "range" : "44",
     "label" : {
       "IRI-based" : "VP46_has_number_of_primitive_entities",
-      "en" : "has number of primitive entities"
+      "en" : "VP46 has number of primitive entities"
     },
     "domain" : "26",
     "attributes" : [ "object" ],
@@ -1627,7 +1627,7 @@
     "range" : "40",
     "label" : {
       "IRI-based" : "VP54i_is_unit_of",
-      "en" : "is unit of"
+      "en" : "VP54i is unit of"
     },
     "domain" : "62",
     "attributes" : [ "object" ],
@@ -1639,7 +1639,7 @@
     "range" : "21",
     "label" : {
       "IRI-based" : "VP52i_indicates",
-      "en" : "indicates"
+      "en" : "VP52i indicates"
     },
     "domain" : "1",
     "attributes" : [ "object" ],
@@ -1651,7 +1651,7 @@
     "range" : "5",
     "label" : {
       "IRI-based" : "VP31i_is_dimension_of",
-      "en" : "is dimension of"
+      "en" : "VP31i is dimension of"
     },
     "domain" : "21",
     "attributes" : [ "object" ],
@@ -1662,7 +1662,7 @@
     "range" : "62",
     "label" : {
       "IRI-based" : "VP54_has_unit",
-      "en" : "has unit"
+      "en" : "VP54 has unit"
     },
     "domain" : "40",
     "attributes" : [ "object" ],
@@ -1674,7 +1674,7 @@
     "range" : "9",
     "label" : {
       "IRI-based" : "VP40i_is_evidence_of",
-      "en" : "is evidence of"
+      "en" : "VP40i is evidence of"
     },
     "domain" : "69",
     "attributes" : [ "object" ],
@@ -1686,7 +1686,7 @@
     "range" : "54",
     "label" : {
       "IRI-based" : "VP30_has_geometrical_representation",
-      "en" : "has geometrical representation"
+      "en" : "VP30 has geometrical representation"
     },
     "domain" : "5",
     "attributes" : [ "object" ],
@@ -1697,7 +1697,7 @@
     "range" : "21",
     "label" : {
       "IRI-based" : "VP31_has_dimension",
-      "en" : "has dimension"
+      "en" : "VP31 has dimension"
     },
     "domain" : "5",
     "attributes" : [ "object" ],
@@ -1708,7 +1708,7 @@
     "range" : "58",
     "label" : {
       "IRI-based" : "VP57_assigned",
-      "en" : "assigned"
+      "en" : "VP57 assigned"
     },
     "domain" : "52",
     "attributes" : [ "object" ],
@@ -1720,7 +1720,7 @@
     "range" : "73",
     "label" : {
       "IRI-based" : "VP9_has_digital_representation",
-      "en" : "has digital representation"
+      "en" : "VP9 has digital representation"
     },
     "domain" : "31",
     "attributes" : [ "object" ],
@@ -1732,7 +1732,7 @@
     "range" : "31",
     "label" : {
       "IRI-based" : "VP11_has_component",
-      "en" : "has component"
+      "en" : "VP11 has component"
     },
     "domain" : "73",
     "attributes" : [ "object" ],
@@ -1744,7 +1744,7 @@
     "range" : "5",
     "label" : {
       "IRI-based" : "VP17i_is_version_identifier_of",
-      "en" : "is version identifier of"
+      "en" : "VP17i is version identifier of"
     },
     "domain" : "80",
     "attributes" : [ "object" ],
@@ -1756,7 +1756,7 @@
     "range" : "83",
     "label" : {
       "IRI-based" : "VP22_assigned",
-      "en" : "assigned"
+      "en" : "VP22 assigned"
     },
     "domain" : "28",
     "attributes" : [ "object" ],
@@ -1773,7 +1773,7 @@
     "range" : "73",
     "label" : {
       "IRI-based" : "VP6i_identifies",
-      "en" : "identifies"
+      "en" : "VP6i identifies"
     },
     "domain" : "6",
     "attributes" : [ "object" ],
@@ -1790,7 +1790,7 @@
     "range" : "20",
     "label" : {
       "IRI-based" : "VP37_has_component",
-      "en" : "has component"
+      "en" : "VP37 has component"
     },
     "domain" : "54",
     "attributes" : [ "object" ],
@@ -1801,7 +1801,7 @@
     "range" : "12",
     "label" : {
       "IRI-based" : "VP1i_is_domain_of",
-      "en" : "is domain of"
+      "en" : "VP1i is domain of"
     },
     "domain" : "34",
     "attributes" : [ "object" ],
@@ -1823,7 +1823,7 @@
     "range" : "12",
     "label" : {
       "IRI-based" : "VP5i_identifies",
-      "en" : "identifies"
+      "en" : "VP5i identifies"
     },
     "domain" : "6",
     "attributes" : [ "object" ],
@@ -1845,7 +1845,7 @@
     "range" : "13",
     "label" : {
       "IRI-based" : "VP12i_is_component_of",
-      "en" : "is component of"
+      "en" : "VP12i is component of"
     },
     "domain" : "13",
     "attributes" : [ "object" ],
@@ -1867,7 +1867,7 @@
     "range" : "2",
     "label" : {
       "IRI-based" : "VP49_has_type",
-      "en" : "has type"
+      "en" : "VP49 has type"
     },
     "domain" : "1",
     "attributes" : [ "object" ],
@@ -1879,7 +1879,7 @@
     "range" : "1",
     "label" : {
       "IRI-based" : "VP36_has_evidence_on",
-      "en" : "has evidence on"
+      "en" : "VP36 has evidence on"
     },
     "domain" : "9",
     "attributes" : [ "object" ],
@@ -1900,7 +1900,7 @@
     "range" : "6",
     "label" : {
       "IRI-based" : "VP6_is_identified_by",
-      "en" : "is identified by"
+      "en" : "VP6 is identified by"
     },
     "domain" : "73",
     "attributes" : [ "object" ],
@@ -1912,7 +1912,7 @@
     "range" : "13",
     "label" : {
       "IRI-based" : "VP14i_identifies",
-      "en" : "identifies"
+      "en" : "VP14i identifies"
     },
     "domain" : "6",
     "attributes" : [ "object" ],
@@ -1923,7 +1923,7 @@
     "range" : "5",
     "label" : {
       "IRI-based" : "VP32i_identifies",
-      "en" : "identifies"
+      "en" : "VP32i identifies"
     },
     "domain" : "6",
     "attributes" : [ "object" ],
@@ -1934,7 +1934,7 @@
     "range" : "16",
     "label" : {
       "IRI-based" : "VP18_is_authored",
-      "en" : "is authored"
+      "en" : "VP18 is authored"
     },
     "domain" : "80",
     "attributes" : [ "object" ],
@@ -1946,7 +1946,7 @@
     "range" : "56",
     "label" : {
       "IRI-based" : "VP42_has_sequence_identifier",
-      "en" : "has sequence identifier"
+      "en" : "VP42 has sequence identifier"
     },
     "domain" : "14",
     "attributes" : [ "object" ],
@@ -1958,7 +1958,7 @@
     "range" : "73",
     "label" : {
       "IRI-based" : "VP61i_is_reference_of",
-      "en" : "is reference of"
+      "en" : "VP61i is reference of"
     },
     "domain" : "1",
     "attributes" : [ "object" ],
@@ -1969,7 +1969,7 @@
     "range" : "16",
     "label" : {
       "IRI-based" : "VP19_is_authored",
-      "en" : "is authored"
+      "en" : "VP19 is authored"
     },
     "domain" : "5",
     "attributes" : [ "object" ],
@@ -1980,7 +1980,7 @@
     "range" : "5",
     "label" : {
       "IRI-based" : "VP30i_geometrically_represents",
-      "en" : "geometrically represents"
+      "en" : "VP30i geometrically represents"
     },
     "domain" : "54",
     "attributes" : [ "object" ],
@@ -1992,7 +1992,7 @@
     "range" : "1",
     "label" : {
       "IRI-based" : "VP35_has_evidence_on",
-      "en" : "has evidence on"
+      "en" : "VP35 has evidence on"
     },
     "domain" : "54",
     "attributes" : [ "object" ],
@@ -2004,7 +2004,7 @@
     "range" : "73",
     "label" : {
       "IRI-based" : "VP2i_is_domain_of",
-      "en" : "is domain of"
+      "en" : "VP2i is domain of"
     },
     "domain" : "34",
     "attributes" : [ "object" ],
@@ -2016,7 +2016,7 @@
     "range" : "40",
     "label" : {
       "IRI-based" : "VP53_has_dimension_equivalent",
-      "en" : "has dimension equivalent"
+      "en" : "VP53 has dimension equivalent"
     },
     "domain" : "21",
     "attributes" : [ "object" ],
@@ -2028,7 +2028,7 @@
     "range" : "1",
     "label" : {
       "IRI-based" : "VP34_has_reference_on",
-      "en" : "has reference on"
+      "en" : "VP34 has reference on"
     },
     "domain" : "9",
     "attributes" : [ "object" ],
@@ -2039,7 +2039,7 @@
     "range" : "1",
     "label" : {
       "IRI-based" : "VP27_assigned_accuracy_to",
-      "en" : "assigned accuracy to"
+      "en" : "VP27 assigned accuracy to"
     },
     "domain" : "17",
     "attributes" : [ "object" ],
@@ -2051,7 +2051,7 @@
     "range" : "16",
     "label" : {
       "IRI-based" : "VP20_carried_out_by",
-      "en" : "carried out by"
+      "en" : "VP20 carried out by"
     },
     "domain" : "28",
     "attributes" : [ "object" ],
@@ -2062,7 +2062,7 @@
     "range" : "44",
     "label" : {
       "IRI-based" : "VP45_has_number_of_primitive_entities",
-      "en" : "has number of primitive entities"
+      "en" : "VP45 has number of primitive entities"
     },
     "domain" : "20",
     "attributes" : [ "object" ],
@@ -2073,7 +2073,7 @@
     "range" : "31",
     "label" : {
       "IRI-based" : "VP9i_digitally_represents",
-      "en" : "digitally represents"
+      "en" : "VP9i digitally represents"
     },
     "domain" : "73",
     "attributes" : [ "object" ],
@@ -2085,7 +2085,7 @@
     "range" : "40",
     "label" : {
       "IRI-based" : "VP55i_is_value_of",
-      "en" : "is value of"
+      "en" : "VP55i is value of"
     },
     "domain" : "44",
     "attributes" : [ "object" ],
@@ -2097,7 +2097,7 @@
     "range" : "21",
     "label" : {
       "IRI-based" : "VP44_has_dimension",
-      "en" : "has dimension"
+      "en" : "VP44 has dimension"
     },
     "domain" : "26",
     "attributes" : [ "object" ],
@@ -2108,7 +2108,7 @@
     "range" : "9",
     "label" : {
       "IRI-based" : "VP36i_is_evidence_of",
-      "en" : "is evidence of"
+      "en" : "VP36i is evidence of"
     },
     "domain" : "1",
     "attributes" : [ "object" ],
@@ -2119,7 +2119,7 @@
     "range" : "73",
     "label" : {
       "IRI-based" : "VP11i_is_component_of",
-      "en" : "is component of"
+      "en" : "VP11i is component of"
     },
     "domain" : "31",
     "attributes" : [ "object" ],
@@ -2130,7 +2130,7 @@
     "range" : "28",
     "label" : {
       "IRI-based" : "VP22i_was_assigned_by",
-      "en" : "was assigned by"
+      "en" : "VP22i was assigned by"
     },
     "domain" : "83",
     "attributes" : [ "object" ],
@@ -2141,7 +2141,7 @@
     "range" : "54",
     "label" : {
       "IRI-based" : "VP37i_is_component_of",
-      "en" : "is component of"
+      "en" : "VP37i is component of"
     },
     "domain" : "20",
     "attributes" : [ "object" ],
@@ -2152,7 +2152,7 @@
     "range" : "12",
     "label" : {
       "IRI-based" : "VP3i_is_type_of",
-      "en" : "is type of"
+      "en" : "VP3i is type of"
     },
     "domain" : "2",
     "attributes" : [ "object" ],
@@ -2164,7 +2164,7 @@
     "range" : "73",
     "label" : {
       "IRI-based" : "VP4i_is_type_of",
-      "en" : "is type of"
+      "en" : "VP4i is type of"
     },
     "domain" : "2",
     "attributes" : [ "object" ],
@@ -2176,7 +2176,7 @@
     "range" : "31",
     "label" : {
       "IRI-based" : "VP7i_is_evidence_of",
-      "en" : "is evidence of"
+      "en" : "VP7i is evidence of"
     },
     "domain" : "73",
     "attributes" : [ "object" ],
@@ -2188,7 +2188,7 @@
     "range" : "54",
     "label" : {
       "IRI-based" : "VP33i_is_reference_of",
-      "en" : "is reference of"
+      "en" : "VP33i is reference of"
     },
     "domain" : "1",
     "attributes" : [ "object" ],
@@ -2200,7 +2200,7 @@
     "range" : "58",
     "label" : {
       "IRI-based" : "VP56_has_type",
-      "en" : "has type"
+      "en" : "VP56 has type"
     },
     "domain" : "21",
     "attributes" : [ "object" ],
@@ -2212,7 +2212,7 @@
     "range" : "69",
     "label" : {
       "IRI-based" : "VP47_has_type",
-      "en" : "has type"
+      "en" : "VP47 has type"
     },
     "domain" : "1",
     "attributes" : [ "object" ],
@@ -2224,7 +2224,7 @@
     "range" : "1",
     "label" : {
       "IRI-based" : "VP48i_identifies",
-      "en" : "identifies"
+      "en" : "VP48i identifies"
     },
     "domain" : "6",
     "attributes" : [ "object" ],
@@ -2235,7 +2235,7 @@
     "range" : "73",
     "label" : {
       "IRI-based" : "VP7_has_evidence_on",
-      "en" : "has evidence on"
+      "en" : "VP7 has evidence on"
     },
     "domain" : "31",
     "attributes" : [ "object" ],
@@ -2247,7 +2247,7 @@
     "range" : "14",
     "label" : {
       "IRI-based" : "VP41i_identifies",
-      "en" : "identifies"
+      "en" : "VP41i identifies"
     },
     "domain" : "6",
     "attributes" : [ "object" ],
@@ -2259,7 +2259,7 @@
     "range" : "26",
     "label" : {
       "IRI-based" : "VP38_has_component",
-      "en" : "has component"
+      "en" : "VP38 has component"
     },
     "domain" : "54",
     "attributes" : [ "object" ],
@@ -2270,7 +2270,7 @@
     "range" : "21",
     "label" : {
       "IRI-based" : "VP56i_is_type_of",
-      "en" : "is type of"
+      "en" : "VP56i is type of"
     },
     "domain" : "58",
     "attributes" : [ "object" ],
@@ -2281,7 +2281,7 @@
     "range" : "13",
     "label" : {
       "IRI-based" : "VP12_has_component",
-      "en" : "has component"
+      "en" : "VP12 has component"
     },
     "domain" : "13",
     "attributes" : [ "object" ],
@@ -2292,7 +2292,7 @@
     "range" : "5",
     "label" : {
       "IRI-based" : "VP25_assigned_accuracy_to",
-      "en" : "assigned accuracy to"
+      "en" : "VP25 assigned accuracy to"
     },
     "domain" : "17",
     "attributes" : [ "object" ],
@@ -2303,7 +2303,7 @@
     "range" : "13",
     "label" : {
       "IRI-based" : "VP13i_hierarchically_identifies",
-      "en" : "hierarchically identifies"
+      "en" : "VP13i hierarchically identifies"
     },
     "domain" : "42",
     "attributes" : [ "object" ],
@@ -2314,7 +2314,7 @@
     "range" : "5",
     "label" : {
       "IRI-based" : "VP24_assigned_uncertainty_to",
-      "en" : "assigned uncertainty to"
+      "en" : "VP24 assigned uncertainty to"
     },
     "domain" : "28",
     "attributes" : [ "object" ],
@@ -2325,7 +2325,7 @@
     "range" : "34",
     "label" : {
       "IRI-based" : "VP2_has_domain",
-      "en" : "has domain"
+      "en" : "VP2 has domain"
     },
     "domain" : "73",
     "attributes" : [ "object" ],
@@ -2336,7 +2336,7 @@
     "range" : "1",
     "label" : {
       "IRI-based" : "VP49i_is_type_of",
-      "en" : "is type of"
+      "en" : "VP49i is type of"
     },
     "domain" : "2",
     "attributes" : [ "object" ],
@@ -2347,7 +2347,7 @@
     "range" : "26",
     "label" : {
       "IRI-based" : "VP44i_is_dimension_of",
-      "en" : "is dimension of"
+      "en" : "VP44i is dimension of"
     },
     "domain" : "21",
     "attributes" : [ "object" ],
@@ -2358,7 +2358,7 @@
     "range" : "54",
     "label" : {
       "IRI-based" : "VP38i_is_component_of",
-      "en" : "is component of"
+      "en" : "VP38i is component of"
     },
     "domain" : "26",
     "attributes" : [ "object" ],
@@ -2369,7 +2369,7 @@
     "range" : "1",
     "label" : {
       "IRI-based" : "VP59i_is_type_of",
-      "en" : "is type of"
+      "en" : "VP59i is type of"
     },
     "domain" : "2",
     "attributes" : [ "object" ],
@@ -2380,7 +2380,7 @@
     "range" : "1",
     "label" : {
       "IRI-based" : "VP61_has_reference_on",
-      "en" : "has reference on"
+      "en" : "VP61 has reference on"
     },
     "domain" : "73",
     "attributes" : [ "object" ],
@@ -2391,7 +2391,7 @@
     "range" : "26",
     "label" : {
       "IRI-based" : "VP62i_is_component_of",
-      "en" : "is component of"
+      "en" : "VP62i is component of"
     },
     "domain" : "14",
     "attributes" : [ "object" ],
@@ -2403,7 +2403,7 @@
     "range" : "12",
     "label" : {
       "IRI-based" : "VP60i_is_reference_of",
-      "en" : "is reference of"
+      "en" : "VP60i is reference of"
     },
     "domain" : "1",
     "attributes" : [ "object" ],
@@ -2415,7 +2415,7 @@
     "range" : "1",
     "label" : {
       "IRI-based" : "VP58i_is_type_of",
-      "en" : "is type of"
+      "en" : "VP58i is type of"
     },
     "domain" : "9",
     "attributes" : [ "object" ],
@@ -2426,7 +2426,7 @@
     "range" : "1",
     "label" : {
       "IRI-based" : "VP47i_is_type_of",
-      "en" : "is type of"
+      "en" : "VP47i is type of"
     },
     "domain" : "69",
     "attributes" : [ "object" ],
@@ -2437,7 +2437,7 @@
     "range" : "14",
     "label" : {
       "IRI-based" : "VP42i_is_sequence_identifier_of",
-      "en" : "is sequence identifier of"
+      "en" : "VP42i is sequence identifier of"
     },
     "domain" : "56",
     "attributes" : [ "object" ],
@@ -2448,7 +2448,7 @@
     "range" : "9",
     "label" : {
       "IRI-based" : "VP34i_is_reference_of",
-      "en" : "is reference of"
+      "en" : "VP34i is reference of"
     },
     "domain" : "1",
     "attributes" : [ "object" ],
@@ -2459,7 +2459,7 @@
     "range" : "6",
     "label" : {
       "IRI-based" : "VP41_is_identified_by",
-      "en" : "is identified by"
+      "en" : "VP41 is identified by"
     },
     "domain" : "14",
     "attributes" : [ "object" ],
@@ -2470,7 +2470,7 @@
     "range" : "17",
     "label" : {
       "IRI-based" : "VP23i_was_assigned_by",
-      "en" : "was assigned by"
+      "en" : "VP23i was assigned by"
     },
     "domain" : "49",
     "attributes" : [ "object" ],
@@ -2481,7 +2481,7 @@
     "range" : "1",
     "label" : {
       "IRI-based" : "VP26_assigned_uncertainty_to",
-      "en" : "assigned uncertainty to"
+      "en" : "VP26 assigned uncertainty to"
     },
     "domain" : "28",
     "attributes" : [ "object" ],
@@ -2492,7 +2492,7 @@
     "range" : "54",
     "label" : {
       "IRI-based" : "VP35i_is_evidence_of",
-      "en" : "is evidence of"
+      "en" : "VP35i is evidence of"
     },
     "domain" : "1",
     "attributes" : [ "object" ],
@@ -2528,7 +2528,7 @@
     "range" : "44",
     "label" : {
       "IRI-based" : "VP55_has_value",
-      "en" : "has value"
+      "en" : "VP55 has value"
     },
     "domain" : "40",
     "attributes" : [ "object" ],
@@ -2555,7 +2555,7 @@
     "range" : "54",
     "label" : {
       "IRI-based" : "VP29i_morphologically_represents",
-      "en" : "morphologically represents"
+      "en" : "VP29i morphologically represents"
     },
     "domain" : "9",
     "attributes" : [ "object" ],
@@ -2567,7 +2567,7 @@
     "range" : "20",
     "label" : {
       "IRI-based" : "VP39i_is_component_of",
-      "en" : "is component of"
+      "en" : "VP39i is component of"
     },
     "domain" : "14",
     "attributes" : [ "object" ],
@@ -2584,7 +2584,7 @@
     "range" : "13",
     "label" : {
       "IRI-based" : "VP15i_is_digitally_represented",
-      "en" : "is digitally represented"
+      "en" : "VP15i is digitally represented"
     },
     "domain" : "5",
     "attributes" : [ "object" ],
@@ -2600,7 +2600,7 @@
     "range" : "9",
     "label" : {
       "IRI-based" : "VP28_has_morphological_representation",
-      "en" : "has morphological representation"
+      "en" : "VP28 has morphological representation"
     },
     "domain" : "5",
     "attributes" : [ "object" ],
@@ -2611,7 +2611,7 @@
     "range" : "9",
     "label" : {
       "IRI-based" : "VP29_has_morphological_representation",
-      "en" : "has morphological representation"
+      "en" : "VP29 has morphological representation"
     },
     "domain" : "54",
     "attributes" : [ "object" ],
@@ -2622,7 +2622,7 @@
     "range" : "5",
     "label" : {
       "IRI-based" : "VP15_has_digital_representation",
-      "en" : "has digital representation"
+      "en" : "VP15 has digital representation"
     },
     "domain" : "13",
     "attributes" : [ "object" ],
@@ -2633,7 +2633,7 @@
     "range" : "31",
     "label" : {
       "IRI-based" : "VP10_has_component",
-      "en" : "has component"
+      "en" : "VP10 has component"
     },
     "domain" : "12",
     "attributes" : [ "object" ],
@@ -2644,7 +2644,7 @@
     "range" : "5",
     "label" : {
       "IRI-based" : "VP16_used_as_derivation_source",
-      "en" : "used as derivation source"
+      "en" : "VP16 used as derivation source"
     },
     "domain" : "69",
     "attributes" : [ "object" ],
@@ -2655,7 +2655,7 @@
     "range" : "1",
     "label" : {
       "IRI-based" : "VP60_has_reference_on",
-      "en" : "has reference on"
+      "en" : "VP60 has reference on"
     },
     "domain" : "12",
     "attributes" : [ "object" ],
@@ -2666,7 +2666,7 @@
     "range" : "2",
     "label" : {
       "IRI-based" : "VP4_has_type",
-      "en" : "has type"
+      "en" : "VP4 has type"
     },
     "domain" : "73",
     "attributes" : [ "object" ],
@@ -2677,7 +2677,7 @@
     "range" : "1",
     "label" : {
       "IRI-based" : "VP52_is_indicated_on",
-      "en" : "is indicated on"
+      "en" : "VP52 is indicated on"
     },
     "domain" : "21",
     "attributes" : [ "object" ],
@@ -2688,7 +2688,7 @@
     "range" : "6",
     "label" : {
       "IRI-based" : "VP8_is_identified_by",
-      "en" : "is identified by"
+      "en" : "VP8 is identified by"
     },
     "domain" : "31",
     "attributes" : [ "object" ],
@@ -2699,7 +2699,7 @@
     "range" : "21",
     "label" : {
       "IRI-based" : "VP53i_is_equivalent_dimension_of",
-      "en" : "is equivalent dimension of"
+      "en" : "VP53i is equivalent dimension of"
     },
     "domain" : "40",
     "attributes" : [ "object" ],
@@ -2710,7 +2710,7 @@
     "range" : "69",
     "label" : {
       "IRI-based" : "VP40_has_evidence_on",
-      "en" : "has evidence on"
+      "en" : "VP40 has evidence on"
     },
     "domain" : "9",
     "attributes" : [ "object" ],
@@ -2721,7 +2721,7 @@
     "range" : "16",
     "label" : {
       "IRI-based" : "VP21_carried_out_by",
-      "en" : "carried out by"
+      "en" : "VP21 carried out by"
     },
     "domain" : "17",
     "attributes" : [ "object" ],
@@ -2732,7 +2732,7 @@
     "range" : "6",
     "label" : {
       "IRI-based" : "VP48_is_identified_by",
-      "en" : "is identified by"
+      "en" : "VP48 is identified by"
     },
     "domain" : "1",
     "attributes" : [ "object" ],
@@ -2743,7 +2743,7 @@
     "range" : "1",
     "label" : {
       "IRI-based" : "VP51_is_deducted_from",
-      "en" : "is deducted from"
+      "en" : "VP51 is deducted from"
     },
     "domain" : "21",
     "attributes" : [ "object" ],
@@ -2754,7 +2754,7 @@
     "range" : "28",
     "label" : {
       "IRI-based" : "VP20i_performed",
-      "en" : "performed"
+      "en" : "VP20i performed"
     },
     "domain" : "16",
     "attributes" : [ "object" ],
@@ -2765,7 +2765,7 @@
     "range" : "1",
     "label" : {
       "IRI-based" : "VP33_has_reference_on",
-      "en" : "has reference on"
+      "en" : "VP33 has reference on"
     },
     "domain" : "54",
     "attributes" : [ "object" ],
@@ -2776,7 +2776,7 @@
     "range" : "20",
     "label" : {
       "IRI-based" : "VP43i_is_dimension_of",
-      "en" : "is dimension of"
+      "en" : "VP43i is dimension of"
     },
     "domain" : "21",
     "attributes" : [ "object" ],
@@ -2787,7 +2787,7 @@
     "range" : "80",
     "label" : {
       "IRI-based" : "VP17_has_version_identifier",
-      "en" : "has version identifier"
+      "en" : "VP17 has version identifier"
     },
     "domain" : "5",
     "attributes" : [ "object" ],
@@ -2798,7 +2798,7 @@
     "range" : "6",
     "label" : {
       "IRI-based" : "VP14_is_identified_by",
-      "en" : "is identified by"
+      "en" : "VP14 is identified by"
     },
     "domain" : "13",
     "attributes" : [ "object" ],
@@ -2809,7 +2809,7 @@
     "range" : "1",
     "label" : {
       "IRI-based" : "VP50_is_interpreted_from",
-      "en" : "is interpreted from"
+      "en" : "VP50 is interpreted from"
     },
     "domain" : "21",
     "attributes" : [ "object" ],
@@ -2820,7 +2820,7 @@
     "range" : "6",
     "label" : {
       "IRI-based" : "VP5_is_identified_by",
-      "en" : "is identified by"
+      "en" : "VP5 is identified by"
     },
     "domain" : "12",
     "attributes" : [ "object" ],
@@ -2831,7 +2831,7 @@
     "range" : "14",
     "label" : {
       "IRI-based" : "VP39_has_component",
-      "en" : "has component"
+      "en" : "VP39 has component"
     },
     "domain" : "20",
     "attributes" : [ "object" ],
@@ -2842,7 +2842,7 @@
     "range" : "9",
     "label" : {
       "IRI-based" : "VP58_has_type",
-      "en" : "has type"
+      "en" : "VP58 has type"
     },
     "domain" : "1",
     "attributes" : [ "object" ],
