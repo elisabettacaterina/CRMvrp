@@ -2,11 +2,11 @@
   "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
   "header" : {
     "languages" : [ "en" ],
-    "baseIris" : [ "https://github.com/elisabettacaterina/CRMvr", "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.cidoc-crm.org/extensions/crmdig", "http://www.cidoc-crm.org/extensions/crmsci", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/ns/prov", "http://www.w3.org/2001/XMLSchema", "http://www.w3.org/ns/ldp", "http://www.cidoc-crm.org/cidoc-crm" ],
+    "baseIris" : [ "https://elisabettacaterina.github.io/CRMvrp/CRMvr", "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.cidoc-crm.org/extensions/crmdig", "http://www.cidoc-crm.org/extensions/crmsci", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/ns/prov", "http://www.w3.org/2001/XMLSchema", "http://www.w3.org/ns/ldp", "http://www.cidoc-crm.org/cidoc-crm" ],
     "title": {
     "undefined": "CRMvr Ontology"
     },
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/",
     "version" : "1.0.0",
     "author" : [ "Elisabetta Caterina GIOVANNINI" ],
     "description" : {
@@ -31,7 +31,7 @@
         {
           "identifier": "priorVersion",
           "language": "undefined",
-          "value": "https://github.com/elisabettacaterina/CRMvr/",
+          "value": "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
           "type": "iri"
         }
       ],
@@ -199,8 +199,8 @@
     "attributes" : [ "external" ],
     "id" : "11"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/V19_Uncertainty_Evaluation",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#V19_Uncertainty_Evaluation",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "instances" : 0,
     "annotations" : {
       "notation" : [ {
@@ -233,8 +233,8 @@
       "IRI-based" : "Entity"
     },
     "individuals" : [ {
-      "iri" : "https://github.com/elisabettacaterina/CRMvr/",
-      "baseIri" : "https://github.com/elisabettacaterina",
+      "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/",
+      "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
       "labels" : { }
     } ],
     "attributes" : [ "external" ],
@@ -249,8 +249,8 @@
     "attributes" : [ "external" ],
     "id" : "44"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/V11_Geometrical_Representation",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#V11_Geometrical_Representation",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "instances" : 0,
     "annotations" : {
       "notation" : [ {
@@ -277,8 +277,8 @@
     "id" : "54",
     "superClasses" : [ "55" ]
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/V13_Order_of_Sequence_Identifier",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#V13_Order_of_Sequence_Identifier",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "instances" : 0,
     "annotations" : {
       "notation" : [ {
@@ -304,8 +304,8 @@
     "id" : "56",
     "superClasses" : [ "6" ]
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/V3_Cultural_Heritage",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#V3_Cultural_Heritage",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "instances" : 0,
     "annotations" : {
       "notation" : [ {
@@ -332,8 +332,8 @@
     "id" : "73",
     "superClasses" : [ "74" ]
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/V15_Path",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#V15_Path",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "instances" : 0,
     "annotations" : {
       "notation" : [ {
@@ -359,8 +359,8 @@
     "id" : "26",
     "superClasses" : [ "54" ]
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/V20_Accuracy_Evaluation",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#V20_Accuracy_Evaluation",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "instances" : 0,
     "annotations" : {
       "notation" : [ {
@@ -386,8 +386,8 @@
     "id" : "17",
     "superClasses" : [ "29" ]
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/V1_Domain",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#V1_Domain",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "instances" : 0,
     "annotations" : {
       "notation" : [ {
@@ -413,8 +413,8 @@
     "id" : "34",
     "superClasses" : [ "47" ]
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/V14_Profile",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#V14_Profile",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "instances" : 0,
     "annotations" : {
       "notation" : [ {
@@ -450,8 +450,8 @@
     "attributes" : [ "external" ],
     "id" : "74"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/V23_Dimension_Equivalent",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#V23_Dimension_Equivalent",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "instances" : 0,
     "annotations" : {
       "notation" : [ {
@@ -487,8 +487,8 @@
     "attributes" : [ "external" ],
     "id" : "2"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/V10_Author",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#V10_Author",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "instances" : 0,
     "annotations" : {
       "notation" : [ {
@@ -514,8 +514,8 @@
     "id" : "16",
     "superClasses" : [ "97" ]
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/V9_Version_Identifier",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#V9_Version_Identifier",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "instances" : 0,
     "annotations" : {
       "notation" : [ {
@@ -541,8 +541,8 @@
     "id" : "80",
     "superClasses" : [ "6" ]
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/V7_Hierarchy_Identifier",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#V7_Hierarchy_Identifier",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "instances" : 0,
     "annotations" : {
       "notation" : [ {
@@ -588,8 +588,8 @@
     "attributes" : [ "external" ],
     "id" : "108"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/V6_3D_Find",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#V6_3D_Find",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "instances" : 0,
     "annotations" : {
       "notation" : [ {
@@ -615,8 +615,8 @@
     "id" : "69",
     "superClasses" : [ "108" ]
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/V25_Evaluation_of_Dimension_Provenance",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#V25_Evaluation_of_Dimension_Provenance",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "instances" : 0,
     "annotations" : {
       "notation" : [ {
@@ -671,8 +671,8 @@
     "attributes" : [ "external" ],
     "id" : "62"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/V4_Find",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#V4_Find",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "instances" : 0,
     "annotations" : {
       "notation" : [ {
@@ -698,8 +698,8 @@
     "id" : "31",
     "superClasses" : [ "73" ]
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/V17_Source",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#V17_Source",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "instances" : 0,
     "annotations" : {
       "notation" : [ {
@@ -725,8 +725,8 @@
     "id" : "1",
     "superClasses" : [ "55" ]
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/V8_3D_Object",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#V8_3D_Object",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "instances" : 0,
     "annotations" : {
       "notation" : [ {
@@ -752,8 +752,8 @@
     "id" : "5",
     "superClasses" : [ "108" ]
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/V22_Accuracy_Grade",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#V22_Accuracy_Grade",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "instances" : 0,
     "annotations" : {
       "notation" : [ {
@@ -779,8 +779,8 @@
     "id" : "49",
     "superClasses" : [ "2" ]
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/V2_Immaterial_Heritage",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#V2_Immaterial_Heritage",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "instances" : 0,
     "annotations" : {
       "notation" : [ {
@@ -806,8 +806,8 @@
     "id" : "12",
     "superClasses" : [ "11" ]
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/V5_Component_Element",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#V5_Component_Element",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "instances" : 0,
     "annotations" : {
       "notation" : [ {
@@ -833,8 +833,8 @@
     "id" : "13",
     "superClasses" : [ "11" ]
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/V21_Uncertainty_Grade",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#V21_Uncertainty_Grade",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "instances" : 0,
     "annotations" : {
       "notation" : [ {
@@ -870,8 +870,8 @@
     "attributes" : [ "external" ],
     "id" : "55"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/V12_Primitive_Entity",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#V12_Primitive_Entity",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "instances" : 0,
     "annotations" : {
       "notation" : [ {
@@ -904,8 +904,8 @@
       "IRI-based" : "Resource"
     },
     "individuals" : [ {
-      "iri" : "https://github.com/elisabettacaterina/CRMvr/",
-      "baseIri" : "https://github.com/elisabettacaterina",
+      "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/",
+      "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
       "labels" : { }
     } ],
     "attributes" : [ "external" ],
@@ -921,8 +921,8 @@
     "attributes" : [ "external" ],
     "id" : "47"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/V24_Type_of_Dimension_Provenance",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#V24_Type_of_Dimension_Provenance",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "instances" : 0,
     "annotations" : {
       "notation" : [ {
@@ -948,8 +948,8 @@
     "id" : "58",
     "superClasses" : [ "2" ]
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/V18_Transparency_Inference_Making",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#V18_Transparency_Inference_Making",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "instances" : 0,
     "annotations" : {
       "notation" : [ {
@@ -976,8 +976,8 @@
     "id" : "29",
     "superClasses" : [ "102" ]
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/V16_Morphological_Representation",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#V16_Morphological_Representation",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "instances" : 0,
     "annotations" : {
       "notation" : [ {
@@ -1429,9 +1429,9 @@
     "type" : "owl:objectProperty"
   } ],
   "propertyAttribute" : [ {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP59_has_type",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP59_has_type",
     "inverse" : "3",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "2",
     "label" : {
       "IRI-based" : "VP59_has_type",
@@ -1441,9 +1441,9 @@
     "attributes" : [ "object" ],
     "id" : "0"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP32_is_identified_by",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP32_is_identified_by",
     "inverse" : "7",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "6",
     "label" : {
       "IRI-based" : "VP32_is_identified_by",
@@ -1453,9 +1453,9 @@
     "attributes" : [ "object" ],
     "id" : "4"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP28i_morphologically_represents",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP28i_morphologically_represents",
     "inverse" : "10",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "5",
     "label" : {
       "IRI-based" : "VP28i_morphologically_represents",
@@ -1465,9 +1465,9 @@
     "attributes" : [ "object" ],
     "id" : "8"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP21i_performed",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP21i_performed",
     "inverse" : "18",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "17",
     "label" : {
       "IRI-based" : "VP21i_performed",
@@ -1477,9 +1477,9 @@
     "attributes" : [ "object" ],
     "id" : "15"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP43_has_dimension",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP43_has_dimension",
     "inverse" : "22",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "21",
     "label" : {
       "IRI-based" : "VP43_has_dimension",
@@ -1489,9 +1489,9 @@
     "attributes" : [ "object" ],
     "id" : "19"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP3_has_type",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP3_has_type",
     "inverse" : "24",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "2",
     "label" : {
       "IRI-based" : "VP3_has_type",
@@ -1501,9 +1501,9 @@
     "attributes" : [ "object" ],
     "id" : "23"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP62_has_component",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP62_has_component",
     "inverse" : "27",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "14",
     "label" : {
       "IRI-based" : "VP62_has_component",
@@ -1513,9 +1513,9 @@
     "attributes" : [ "object" ],
     "id" : "25"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP8i_identifies",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP8i_identifies",
     "inverse" : "32",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "31",
     "label" : {
       "IRI-based" : "VP8i_identifies",
@@ -1525,9 +1525,9 @@
     "attributes" : [ "object" ],
     "id" : "30"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP1_has_domain",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP1_has_domain",
     "inverse" : "35",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "34",
     "label" : {
       "IRI-based" : "VP1_has_domain",
@@ -1537,9 +1537,9 @@
     "attributes" : [ "object" ],
     "id" : "33"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP10i_is_component_of",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP10i_is_component_of",
     "inverse" : "38",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "12",
     "label" : {
       "IRI-based" : "VP10i_is_component_of",
@@ -1554,9 +1554,9 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "39"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP13_is_hierarchically_identified",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP13_is_hierarchically_identified",
     "inverse" : "43",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "42",
     "label" : {
       "IRI-based" : "VP13_is_hierarchically_identified",
@@ -1576,9 +1576,9 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "46"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP23_assigned",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP23_assigned",
     "inverse" : "50",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "49",
     "label" : {
       "IRI-based" : "VP23_assigned",
@@ -1598,9 +1598,9 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "53"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP57i_was_assigned_by",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP57i_was_assigned_by",
     "inverse" : "59",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "52",
     "label" : {
       "IRI-based" : "VP57i_was_assigned_by",
@@ -1610,8 +1610,8 @@
     "attributes" : [ "object" ],
     "id" : "57"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP46_has_number_of_primitive_entities",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP46_has_number_of_primitive_entities",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "44",
     "label" : {
       "IRI-based" : "VP46_has_number_of_primitive_entities",
@@ -1621,9 +1621,9 @@
     "attributes" : [ "object" ],
     "id" : "60"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP54i_is_unit_of",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP54i_is_unit_of",
     "inverse" : "63",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "40",
     "label" : {
       "IRI-based" : "VP54i_is_unit_of",
@@ -1633,9 +1633,9 @@
     "attributes" : [ "object" ],
     "id" : "61"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP52i_indicates",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP52i_indicates",
     "inverse" : "65",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "21",
     "label" : {
       "IRI-based" : "VP52i_indicates",
@@ -1645,9 +1645,9 @@
     "attributes" : [ "object" ],
     "id" : "64"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP31i_is_dimension_of",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP31i_is_dimension_of",
     "inverse" : "67",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "5",
     "label" : {
       "IRI-based" : "VP31i_is_dimension_of",
@@ -1657,8 +1657,8 @@
     "attributes" : [ "object" ],
     "id" : "66"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP54_has_unit",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP54_has_unit",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "62",
     "label" : {
       "IRI-based" : "VP54_has_unit",
@@ -1668,9 +1668,9 @@
     "attributes" : [ "object" ],
     "id" : "63"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP40i_is_evidence_of",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP40i_is_evidence_of",
     "inverse" : "70",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "9",
     "label" : {
       "IRI-based" : "VP40i_is_evidence_of",
@@ -1680,9 +1680,9 @@
     "attributes" : [ "object" ],
     "id" : "68"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP30_has_geometrical_representation",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP30_has_geometrical_representation",
     "inverse" : "72",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "54",
     "label" : {
       "IRI-based" : "VP30_has_geometrical_representation",
@@ -1692,8 +1692,8 @@
     "attributes" : [ "object" ],
     "id" : "71"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP31_has_dimension",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP31_has_dimension",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "21",
     "label" : {
       "IRI-based" : "VP31_has_dimension",
@@ -1703,8 +1703,8 @@
     "attributes" : [ "object" ],
     "id" : "67"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP57_assigned",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP57_assigned",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "58",
     "label" : {
       "IRI-based" : "VP57_assigned",
@@ -1714,9 +1714,9 @@
     "attributes" : [ "object" ],
     "id" : "59"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP9_has_digital_representation",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP9_has_digital_representation",
     "inverse" : "76",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "73",
     "label" : {
       "IRI-based" : "VP9_has_digital_representation",
@@ -1726,9 +1726,9 @@
     "attributes" : [ "object" ],
     "id" : "75"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP11_has_component",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP11_has_component",
     "inverse" : "78",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "31",
     "label" : {
       "IRI-based" : "VP11_has_component",
@@ -1738,9 +1738,9 @@
     "attributes" : [ "object" ],
     "id" : "77"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP17i_is_version_identifier_of",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP17i_is_version_identifier_of",
     "inverse" : "81",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "5",
     "label" : {
       "IRI-based" : "VP17i_is_version_identifier_of",
@@ -1750,9 +1750,9 @@
     "attributes" : [ "object" ],
     "id" : "79"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP22_assigned",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP22_assigned",
     "inverse" : "84",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "83",
     "label" : {
       "IRI-based" : "VP22_assigned",
@@ -1767,9 +1767,9 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "85"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP6i_identifies",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP6i_identifies",
     "inverse" : "87",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "73",
     "label" : {
       "IRI-based" : "VP6i_identifies",
@@ -1784,9 +1784,9 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "88"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP37_has_component",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP37_has_component",
     "inverse" : "90",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "20",
     "label" : {
       "IRI-based" : "VP37_has_component",
@@ -1796,8 +1796,8 @@
     "attributes" : [ "object" ],
     "id" : "89"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP1i_is_domain_of",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP1i_is_domain_of",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "12",
     "label" : {
       "IRI-based" : "VP1i_is_domain_of",
@@ -1817,9 +1817,9 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "92"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP5i_identifies",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP5i_identifies",
     "inverse" : "94",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "12",
     "label" : {
       "IRI-based" : "VP5i_identifies",
@@ -1839,9 +1839,9 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "96"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP12i_is_component_of",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP12i_is_component_of",
     "inverse" : "99",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "13",
     "label" : {
       "IRI-based" : "VP12i_is_component_of",
@@ -1861,9 +1861,9 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "101"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP49_has_type",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP49_has_type",
     "inverse" : "104",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "2",
     "label" : {
       "IRI-based" : "VP49_has_type",
@@ -1873,9 +1873,9 @@
     "attributes" : [ "object" ],
     "id" : "103"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP36_has_evidence_on",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP36_has_evidence_on",
     "inverse" : "106",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "1",
     "label" : {
       "IRI-based" : "VP36_has_evidence_on",
@@ -1895,8 +1895,8 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "109"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP6_is_identified_by",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP6_is_identified_by",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "6",
     "label" : {
       "IRI-based" : "VP6_is_identified_by",
@@ -1906,9 +1906,9 @@
     "attributes" : [ "object" ],
     "id" : "87"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP14i_identifies",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP14i_identifies",
     "inverse" : "111",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "13",
     "label" : {
       "IRI-based" : "VP14i_identifies",
@@ -1918,8 +1918,8 @@
     "attributes" : [ "object" ],
     "id" : "110"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP32i_identifies",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP32i_identifies",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "5",
     "label" : {
       "IRI-based" : "VP32i_identifies",
@@ -1929,8 +1929,8 @@
     "attributes" : [ "object" ],
     "id" : "7"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP18_is_authored",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP18_is_authored",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "16",
     "label" : {
       "IRI-based" : "VP18_is_authored",
@@ -1940,9 +1940,9 @@
     "attributes" : [ "object" ],
     "id" : "112"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP42_has_sequence_identifier",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP42_has_sequence_identifier",
     "inverse" : "114",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "56",
     "label" : {
       "IRI-based" : "VP42_has_sequence_identifier",
@@ -1952,9 +1952,9 @@
     "attributes" : [ "object" ],
     "id" : "113"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP61i_is_reference_of",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP61i_is_reference_of",
     "inverse" : "116",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "73",
     "label" : {
       "IRI-based" : "VP61i_is_reference_of",
@@ -1964,8 +1964,8 @@
     "attributes" : [ "object" ],
     "id" : "115"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP19_is_authored",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP19_is_authored",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "16",
     "label" : {
       "IRI-based" : "VP19_is_authored",
@@ -1975,8 +1975,8 @@
     "attributes" : [ "object" ],
     "id" : "117"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP30i_geometrically_represents",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP30i_geometrically_represents",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "5",
     "label" : {
       "IRI-based" : "VP30i_geometrically_represents",
@@ -1986,9 +1986,9 @@
     "attributes" : [ "object" ],
     "id" : "72"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP35_has_evidence_on",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP35_has_evidence_on",
     "inverse" : "119",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "1",
     "label" : {
       "IRI-based" : "VP35_has_evidence_on",
@@ -1998,9 +1998,9 @@
     "attributes" : [ "object" ],
     "id" : "118"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP2i_is_domain_of",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP2i_is_domain_of",
     "inverse" : "121",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "73",
     "label" : {
       "IRI-based" : "VP2i_is_domain_of",
@@ -2010,9 +2010,9 @@
     "attributes" : [ "object" ],
     "id" : "120"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP53_has_dimension_equivalent",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP53_has_dimension_equivalent",
     "inverse" : "123",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "40",
     "label" : {
       "IRI-based" : "VP53_has_dimension_equivalent",
@@ -2022,9 +2022,9 @@
     "attributes" : [ "object" ],
     "id" : "122"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP34_has_reference_on",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP34_has_reference_on",
     "inverse" : "125",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "1",
     "label" : {
       "IRI-based" : "VP34_has_reference_on",
@@ -2034,8 +2034,8 @@
     "attributes" : [ "object" ],
     "id" : "124"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP27_assigned_accuracy_to",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP27_assigned_accuracy_to",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "1",
     "label" : {
       "IRI-based" : "VP27_assigned_accuracy_to",
@@ -2045,9 +2045,9 @@
     "attributes" : [ "object" ],
     "id" : "126"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP20_carried_out_by",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP20_carried_out_by",
     "inverse" : "128",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "16",
     "label" : {
       "IRI-based" : "VP20_carried_out_by",
@@ -2057,8 +2057,8 @@
     "attributes" : [ "object" ],
     "id" : "127"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP45_has_number_of_primitive_entities",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP45_has_number_of_primitive_entities",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "44",
     "label" : {
       "IRI-based" : "VP45_has_number_of_primitive_entities",
@@ -2068,8 +2068,8 @@
     "attributes" : [ "object" ],
     "id" : "129"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP9i_digitally_represents",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP9i_digitally_represents",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "31",
     "label" : {
       "IRI-based" : "VP9i_digitally_represents",
@@ -2079,9 +2079,9 @@
     "attributes" : [ "object" ],
     "id" : "76"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP55i_is_value_of",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP55i_is_value_of",
     "inverse" : "131",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "40",
     "label" : {
       "IRI-based" : "VP55i_is_value_of",
@@ -2091,9 +2091,9 @@
     "attributes" : [ "object" ],
     "id" : "130"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP44_has_dimension",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP44_has_dimension",
     "inverse" : "133",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "21",
     "label" : {
       "IRI-based" : "VP44_has_dimension",
@@ -2103,8 +2103,8 @@
     "attributes" : [ "object" ],
     "id" : "132"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP36i_is_evidence_of",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP36i_is_evidence_of",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "9",
     "label" : {
       "IRI-based" : "VP36i_is_evidence_of",
@@ -2114,8 +2114,8 @@
     "attributes" : [ "object" ],
     "id" : "106"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP11i_is_component_of",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP11i_is_component_of",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "73",
     "label" : {
       "IRI-based" : "VP11i_is_component_of",
@@ -2125,8 +2125,8 @@
     "attributes" : [ "object" ],
     "id" : "78"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP22i_was_assigned_by",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP22i_was_assigned_by",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "28",
     "label" : {
       "IRI-based" : "VP22i_was_assigned_by",
@@ -2136,8 +2136,8 @@
     "attributes" : [ "object" ],
     "id" : "84"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP37i_is_component_of",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP37i_is_component_of",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "54",
     "label" : {
       "IRI-based" : "VP37i_is_component_of",
@@ -2147,8 +2147,8 @@
     "attributes" : [ "object" ],
     "id" : "90"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP3i_is_type_of",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP3i_is_type_of",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "12",
     "label" : {
       "IRI-based" : "VP3i_is_type_of",
@@ -2158,9 +2158,9 @@
     "attributes" : [ "object" ],
     "id" : "24"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP4i_is_type_of",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP4i_is_type_of",
     "inverse" : "135",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "73",
     "label" : {
       "IRI-based" : "VP4i_is_type_of",
@@ -2170,9 +2170,9 @@
     "attributes" : [ "object" ],
     "id" : "134"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP7i_is_evidence_of",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP7i_is_evidence_of",
     "inverse" : "137",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "31",
     "label" : {
       "IRI-based" : "VP7i_is_evidence_of",
@@ -2182,9 +2182,9 @@
     "attributes" : [ "object" ],
     "id" : "136"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP33i_is_reference_of",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP33i_is_reference_of",
     "inverse" : "139",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "54",
     "label" : {
       "IRI-based" : "VP33i_is_reference_of",
@@ -2194,9 +2194,9 @@
     "attributes" : [ "object" ],
     "id" : "138"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP56_has_type",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP56_has_type",
     "inverse" : "141",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "58",
     "label" : {
       "IRI-based" : "VP56_has_type",
@@ -2206,9 +2206,9 @@
     "attributes" : [ "object" ],
     "id" : "140"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP47_has_type",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP47_has_type",
     "inverse" : "143",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "69",
     "label" : {
       "IRI-based" : "VP47_has_type",
@@ -2218,9 +2218,9 @@
     "attributes" : [ "object" ],
     "id" : "142"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP48i_identifies",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP48i_identifies",
     "inverse" : "145",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "1",
     "label" : {
       "IRI-based" : "VP48i_identifies",
@@ -2230,8 +2230,8 @@
     "attributes" : [ "object" ],
     "id" : "144"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP7_has_evidence_on",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP7_has_evidence_on",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "73",
     "label" : {
       "IRI-based" : "VP7_has_evidence_on",
@@ -2241,9 +2241,9 @@
     "attributes" : [ "object" ],
     "id" : "137"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP41i_identifies",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP41i_identifies",
     "inverse" : "147",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "14",
     "label" : {
       "IRI-based" : "VP41i_identifies",
@@ -2253,9 +2253,9 @@
     "attributes" : [ "object" ],
     "id" : "146"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP38_has_component",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP38_has_component",
     "inverse" : "149",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "26",
     "label" : {
       "IRI-based" : "VP38_has_component",
@@ -2265,8 +2265,8 @@
     "attributes" : [ "object" ],
     "id" : "148"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP56i_is_type_of",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP56i_is_type_of",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "21",
     "label" : {
       "IRI-based" : "VP56i_is_type_of",
@@ -2276,8 +2276,8 @@
     "attributes" : [ "object" ],
     "id" : "141"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP12_has_component",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP12_has_component",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "13",
     "label" : {
       "IRI-based" : "VP12_has_component",
@@ -2287,8 +2287,8 @@
     "attributes" : [ "object" ],
     "id" : "99"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP25_assigned_accuracy_to",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP25_assigned_accuracy_to",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "5",
     "label" : {
       "IRI-based" : "VP25_assigned_accuracy_to",
@@ -2298,8 +2298,8 @@
     "attributes" : [ "object" ],
     "id" : "150"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP13i_hierarchically_identifies",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP13i_hierarchically_identifies",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "13",
     "label" : {
       "IRI-based" : "VP13i_hierarchically_identifies",
@@ -2309,8 +2309,8 @@
     "attributes" : [ "object" ],
     "id" : "43"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP24_assigned_uncertainty_to",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP24_assigned_uncertainty_to",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "5",
     "label" : {
       "IRI-based" : "VP24_assigned_uncertainty_to",
@@ -2320,8 +2320,8 @@
     "attributes" : [ "object" ],
     "id" : "151"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP2_has_domain",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP2_has_domain",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "34",
     "label" : {
       "IRI-based" : "VP2_has_domain",
@@ -2331,8 +2331,8 @@
     "attributes" : [ "object" ],
     "id" : "121"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP49i_is_type_of",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP49i_is_type_of",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "1",
     "label" : {
       "IRI-based" : "VP49i_is_type_of",
@@ -2342,8 +2342,8 @@
     "attributes" : [ "object" ],
     "id" : "104"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP44i_is_dimension_of",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP44i_is_dimension_of",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "26",
     "label" : {
       "IRI-based" : "VP44i_is_dimension_of",
@@ -2353,8 +2353,8 @@
     "attributes" : [ "object" ],
     "id" : "133"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP38i_is_component_of",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP38i_is_component_of",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "54",
     "label" : {
       "IRI-based" : "VP38i_is_component_of",
@@ -2364,8 +2364,8 @@
     "attributes" : [ "object" ],
     "id" : "149"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP59i_is_type_of",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP59i_is_type_of",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "1",
     "label" : {
       "IRI-based" : "VP59i_is_type_of",
@@ -2375,8 +2375,8 @@
     "attributes" : [ "object" ],
     "id" : "3"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP61_has_reference_on",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP61_has_reference_on",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "1",
     "label" : {
       "IRI-based" : "VP61_has_reference_on",
@@ -2386,8 +2386,8 @@
     "attributes" : [ "object" ],
     "id" : "116"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP62i_is_component_of",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP62i_is_component_of",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "26",
     "label" : {
       "IRI-based" : "VP62i_is_component_of",
@@ -2397,9 +2397,9 @@
     "attributes" : [ "object" ],
     "id" : "27"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP60i_is_reference_of",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP60i_is_reference_of",
     "inverse" : "153",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "12",
     "label" : {
       "IRI-based" : "VP60i_is_reference_of",
@@ -2409,9 +2409,9 @@
     "attributes" : [ "object" ],
     "id" : "152"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP58i_is_type_of",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP58i_is_type_of",
     "inverse" : "155",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "1",
     "label" : {
       "IRI-based" : "VP58i_is_type_of",
@@ -2421,8 +2421,8 @@
     "attributes" : [ "object" ],
     "id" : "154"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP47i_is_type_of",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP47i_is_type_of",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "1",
     "label" : {
       "IRI-based" : "VP47i_is_type_of",
@@ -2432,8 +2432,8 @@
     "attributes" : [ "object" ],
     "id" : "143"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP42i_is_sequence_identifier_of",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP42i_is_sequence_identifier_of",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "14",
     "label" : {
       "IRI-based" : "VP42i_is_sequence_identifier_of",
@@ -2443,8 +2443,8 @@
     "attributes" : [ "object" ],
     "id" : "114"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP34i_is_reference_of",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP34i_is_reference_of",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "9",
     "label" : {
       "IRI-based" : "VP34i_is_reference_of",
@@ -2454,8 +2454,8 @@
     "attributes" : [ "object" ],
     "id" : "125"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP41_is_identified_by",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP41_is_identified_by",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "6",
     "label" : {
       "IRI-based" : "VP41_is_identified_by",
@@ -2465,8 +2465,8 @@
     "attributes" : [ "object" ],
     "id" : "147"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP23i_was_assigned_by",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP23i_was_assigned_by",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "17",
     "label" : {
       "IRI-based" : "VP23i_was_assigned_by",
@@ -2476,8 +2476,8 @@
     "attributes" : [ "object" ],
     "id" : "50"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP26_assigned_uncertainty_to",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP26_assigned_uncertainty_to",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "1",
     "label" : {
       "IRI-based" : "VP26_assigned_uncertainty_to",
@@ -2487,8 +2487,8 @@
     "attributes" : [ "object" ],
     "id" : "156"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP35i_is_evidence_of",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP35i_is_evidence_of",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "54",
     "label" : {
       "IRI-based" : "VP35i_is_evidence_of",
@@ -2523,8 +2523,8 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "161"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP55_has_value",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP55_has_value",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "44",
     "label" : {
       "IRI-based" : "VP55_has_value",
@@ -2549,9 +2549,9 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "164"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP29i_morphologically_represents",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP29i_morphologically_represents",
     "inverse" : "166",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "54",
     "label" : {
       "IRI-based" : "VP29i_morphologically_represents",
@@ -2561,9 +2561,9 @@
     "attributes" : [ "object" ],
     "id" : "165"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP39i_is_component_of",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP39i_is_component_of",
     "inverse" : "168",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "20",
     "label" : {
       "IRI-based" : "VP39i_is_component_of",
@@ -2578,9 +2578,9 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "169"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP15i_is_digitally_represented",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP15i_is_digitally_represented",
     "inverse" : "171",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "13",
     "label" : {
       "IRI-based" : "VP15i_is_digitally_represented",
@@ -2595,8 +2595,8 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "172"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP28_has_morphological_representation",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP28_has_morphological_representation",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "9",
     "label" : {
       "IRI-based" : "VP28_has_morphological_representation",
@@ -2606,8 +2606,8 @@
     "attributes" : [ "object" ],
     "id" : "10"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP29_has_morphological_representation",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP29_has_morphological_representation",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "9",
     "label" : {
       "IRI-based" : "VP29_has_morphological_representation",
@@ -2617,8 +2617,8 @@
     "attributes" : [ "object" ],
     "id" : "166"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP15_has_digital_representation",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP15_has_digital_representation",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "5",
     "label" : {
       "IRI-based" : "VP15_has_digital_representation",
@@ -2628,8 +2628,8 @@
     "attributes" : [ "object" ],
     "id" : "171"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP10_has_component",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP10_has_component",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "31",
     "label" : {
       "IRI-based" : "VP10_has_component",
@@ -2639,8 +2639,8 @@
     "attributes" : [ "object" ],
     "id" : "38"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP16_used_as_derivation_source",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP16_used_as_derivation_source",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "5",
     "label" : {
       "IRI-based" : "VP16_used_as_derivation_source",
@@ -2650,8 +2650,8 @@
     "attributes" : [ "object" ],
     "id" : "173"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP60_has_reference_on",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP60_has_reference_on",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "1",
     "label" : {
       "IRI-based" : "VP60_has_reference_on",
@@ -2661,8 +2661,8 @@
     "attributes" : [ "object" ],
     "id" : "153"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP4_has_type",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP4_has_type",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "2",
     "label" : {
       "IRI-based" : "VP4_has_type",
@@ -2672,8 +2672,8 @@
     "attributes" : [ "object" ],
     "id" : "135"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP52_is_indicated_on",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP52_is_indicated_on",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "1",
     "label" : {
       "IRI-based" : "VP52_is_indicated_on",
@@ -2683,8 +2683,8 @@
     "attributes" : [ "object" ],
     "id" : "65"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP8_is_identified_by",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP8_is_identified_by",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "6",
     "label" : {
       "IRI-based" : "VP8_is_identified_by",
@@ -2694,8 +2694,8 @@
     "attributes" : [ "object" ],
     "id" : "32"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP53i_is_equivalent_dimension_of",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP53i_is_equivalent_dimension_of",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "21",
     "label" : {
       "IRI-based" : "VP53i_is_equivalent_dimension_of",
@@ -2705,8 +2705,8 @@
     "attributes" : [ "object" ],
     "id" : "123"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP40_has_evidence_on",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP40_has_evidence_on",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "69",
     "label" : {
       "IRI-based" : "VP40_has_evidence_on",
@@ -2716,8 +2716,8 @@
     "attributes" : [ "object" ],
     "id" : "70"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP21_carried_out_by",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP21_carried_out_by",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "16",
     "label" : {
       "IRI-based" : "VP21_carried_out_by",
@@ -2727,8 +2727,8 @@
     "attributes" : [ "object" ],
     "id" : "18"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP48_is_identified_by",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP48_is_identified_by",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "6",
     "label" : {
       "IRI-based" : "VP48_is_identified_by",
@@ -2738,8 +2738,8 @@
     "attributes" : [ "object" ],
     "id" : "145"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP51_is_deducted_from",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP51_is_deducted_from",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "1",
     "label" : {
       "IRI-based" : "VP51_is_deducted_from",
@@ -2749,8 +2749,8 @@
     "attributes" : [ "object" ],
     "id" : "175"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP20i_performed",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP20i_performed",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "28",
     "label" : {
       "IRI-based" : "VP20i_performed",
@@ -2760,8 +2760,8 @@
     "attributes" : [ "object" ],
     "id" : "128"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP33_has_reference_on",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP33_has_reference_on",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "1",
     "label" : {
       "IRI-based" : "VP33_has_reference_on",
@@ -2771,8 +2771,8 @@
     "attributes" : [ "object" ],
     "id" : "139"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP43i_is_dimension_of",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP43i_is_dimension_of",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "20",
     "label" : {
       "IRI-based" : "VP43i_is_dimension_of",
@@ -2782,8 +2782,8 @@
     "attributes" : [ "object" ],
     "id" : "22"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP17_has_version_identifier",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP17_has_version_identifier",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "80",
     "label" : {
       "IRI-based" : "VP17_has_version_identifier",
@@ -2793,8 +2793,8 @@
     "attributes" : [ "object" ],
     "id" : "81"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP14_is_identified_by",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP14_is_identified_by",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "6",
     "label" : {
       "IRI-based" : "VP14_is_identified_by",
@@ -2804,8 +2804,8 @@
     "attributes" : [ "object" ],
     "id" : "111"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP50_is_interpreted_from",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP50_is_interpreted_from",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "1",
     "label" : {
       "IRI-based" : "VP50_is_interpreted_from",
@@ -2815,8 +2815,8 @@
     "attributes" : [ "object" ],
     "id" : "176"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP5_is_identified_by",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP5_is_identified_by",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "6",
     "label" : {
       "IRI-based" : "VP5_is_identified_by",
@@ -2826,8 +2826,8 @@
     "attributes" : [ "object" ],
     "id" : "94"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP39_has_component",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP39_has_component",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "14",
     "label" : {
       "IRI-based" : "VP39_has_component",
@@ -2837,8 +2837,8 @@
     "attributes" : [ "object" ],
     "id" : "168"
   }, {
-    "iri" : "https://github.com/elisabettacaterina/CRMvr/VP58_has_type",
-    "baseIri" : "https://github.com/elisabettacaterina/CRMvr",
+    "iri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr/index-en.html#VP58_has_type",
+    "baseIri" : "https://elisabettacaterina.github.io/CRMvrp/CRMvr",
     "range" : "9",
     "label" : {
       "IRI-based" : "VP58_has_type",
