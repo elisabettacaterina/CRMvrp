@@ -24,7 +24,7 @@ The goal of the concept model is to provide support to:
 The v.1 of the Extension was encoded as CRMvrp.
 The model was built on the same principle of CIDOC-CRM. The model was aligned to CIDOC-CRM classes and properties, and refers to other CRM extensions that were developed to ensure the completeness of documentation.
 
-![Immagine locale](imgs/CRMvr_logo.jpg){:height="30px"}
+![Immagine locale](imgs/CRMvr_logo.jpg =0x30)
 ### CRMvr v.1
 The v.1 of the Extension was encoded as CRMvr.
 The model was built on the same principle of CIDOC-CRM. The model was aligned to CIDOC-CRM classes and properties, and refers to other CRM extensions that were developed to ensure the completeness of documentation.
