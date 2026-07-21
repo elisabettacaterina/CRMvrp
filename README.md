@@ -19,7 +19,7 @@ The goal of the concept model is to provide support to:
 * Support the assignment of classification to Reference Sources used in Virtual Reconstruction Processes to depict uncertainty of the 3D representation
 * Support the assignment of level of accuracy of Virtual Reconstruction Processes elements that can be deducted from the Reference Source
 
-![Immagine locale](./imgs/CRMvr_logo.jpg |50)
+![Immagine locale](./imgs/CRMvr_logo.jpg |60x30)
 ### CRMvrp v.2
 The v.1 of the Extension was encoded as CRMvrp.
 The model was built on the same principle of CIDOC-CRM. The model was aligned to CIDOC-CRM classes and properties, and refers to other CRM extensions that were developed to ensure the completeness of documentation.
